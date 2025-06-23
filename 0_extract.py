@@ -2,7 +2,7 @@ import zipfile
 import re
 import io
 
-root = "ACS_final_submission.zip"
+root = "ISW-submissions.zip"
 prefix = 'cameraready'
 
 # Open root file

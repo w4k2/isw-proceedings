@@ -23,8 +23,7 @@ for path in glob.glob('*', root_dir=root):
             os.system('rm -rf %s' % pth_to_remove)
 
         # remove unnecessary
-
-        for ext in ['pdf', 'gz', 'blg', 'bbl', 
+        for ext in ['gz', 'blg', 'bbl', 
                     'aux', 'log', 'txt', 'bst',
                     'cls']:
             os.system('rm -rf %s%s/*.%s' % (root, path, ext))
