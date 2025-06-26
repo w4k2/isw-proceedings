@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{beaconchain2025}
+Beaconcha.in: Beaconcha.in. \url{https://beaconcha.in/} (2025), accessed:
+  2025-03-31
+
+\bibitem{beaconchain_epochs2025}
+Beaconcha.in: Beaconcha.in epochs. \url{https://beaconcha.in/epochs} (2025),
+  accessed: 2025-03-31
+
+\bibitem{brown2024exploring}
+Brown, S., Bautista-Gomez, L.: Exploring correlation patterns in the ethereum
+  validator network. arXiv preprint arXiv:2404.02164  (2024),
+  \url{https://arxiv.org/abs/2404.02164}, Accessed: 2025-05-20
+
+\bibitem{eip7716_2024_ethresear}
+Contributors, E.R.: Diseconomies of scale: Anti-correlation penalties
+  (eip-7716).
+  \url{https://ethresear.ch/t/diseconomies-of-scale-anti-correlation-penalties-eip-7716/20114}
+  (2024), accessed: 2025-03-31
+
+\bibitem{eip7716_2024_vitalikethresear}
+Contributors, E.R.: Supporting decentralized staking through more
+  anti-correlation incentives.
+  \url{https://ethresear.ch/t/supporting-decentralized-staking-through-more-anti-correlation-incentives/19116/1}
+  (2024), accessed: 2025-03-31
+
+\bibitem{eip7251_2023}
+Eip-7251: Increase the max effective balance.
+  \url{https://eips.ethereum.org/EIPS/eip-7251} (2023), accessed: 2025-03-31
+
+\bibitem{eip7716_2024}
+Eip‑7716: Anti‑correlation attestation penalties.
+  \url{https://eips.ethereum.org/EIPS/eip-7716} (2024), accessed: 2025-03-31
+
+\bibitem{exec_meeting208_2025}
+{Ethereum Execution Client Team}: Execution layer meeting 208 [video]. YouTube
+  (2025), \url{https://www.youtube.com/watch?v=0eVoE_isGBk}, Accessed:
+  2025-03-31
+
+\bibitem{gasper2025}
+Gasper.
+  \url{https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/}
+  (2025), accessed: 2025-03-31
+
+\bibitem{grandjean2023ethereum}
+Grandjean, D., Heimbach, L., Wattenhofer, R.: Ethereum proof-of-stake consensus
+  layer: Participation and decentralization. In: International Conference on
+  Financial Cryptography and Data Security. Springer (2023)
+
+\bibitem{heimbach2024deanonymizing}
+Heimbach, L., Vonlanthen, Y., Villacis, J., Kiffer, L., Wattenhofer, R.:
+  Deanonymizing ethereum validators: The p2p network has a privacy issue. arXiv
+  preprint arXiv:2409.04366  (2024), \url{https://arxiv.org/pdf/2409.04366},
+  Accessed: 2025-05-20
+
+\bibitem{hildobby2025}
+Hildobby: Ethereum {ETH} staking. \url{https://dune.com/hildobby/eth2-staking}
+  (2025), accessed: 2025-03-31
+
+\bibitem{2023offchainlabs}
+Labs, O.: Post-mortem report: Ethereum mainnet finality (05/11/2023). Offchain
+  Labs blog (2023),
+  \url{https://medium.com/offchainlabs/post-mortem-report-ethereum-mainnet-finality-05-11-2023-95e271dfd8b2},
+  Accessed: 2025-05-20
+
+\bibitem{rated2025}
+Rated.network: Rated.network explorer.
+  \url{https://explorer.rated.network/?network=mainnet\&view=pool\&timeWindow=1d\&page=1\&pageSize=15\&poolType=all}
+  (2025), accessed: 2025-03-31
+
+\bibitem{staking2025}
+Staking. \url{https://ethereum.org/en/staking/} (2025), accessed: 2025-03-31
+
+\bibitem{vanom_lido2025}
+{VaNOM}: Lido on ethereum validator and node metrics.
+  \url{https://app.hex.tech/8dedcd99-17f4-49d8-944e-4857a355b90a/app/3f7d6967-3ef6-4e69-8f7b-d02d903f045b/latest}
+  (2025), accessed: 2025-03-31
+
+\end{thebibliography}

@@ -1,8 +1,9 @@
  \documentclass[
-    letterpaper,10pt,%
+    letterpaper,
+    10pt,%
     printed,% [printed] | electronic
-    oneside,
-    onesidepapers,
+    twoside,
+    twosidepapers,
     papers=countpages,% empty | draft | [final] | countpages
     paperselec=all, %[all] | p_001 | p_fake
     hyperref={
@@ -12,14 +13,18 @@
         linkcolor=blue,urlcolor=blue
     },%
     geometry={
-        text={100truemm,226truemm},% A4 & letter
-        inner=0.805in,top=29.15mm,
-        bottom=24.5mm,footskip=9.68mm,
+        text={122truemm,126truemm},% A4 & letter
+        inner=1.85in,top=35.00mm,
+        bottom=50.00mm,footskip=10.00mm,
         voffset=-5mm
+    % geometry={
+    %     text={100truemm,226truemm},% A4 & letter
+    %     inner=0.805in,top=29.15mm,
+    %     bottom=24.5mm,footskip=9.68mm,
+    %     voffset=-5mm
     },%letter
 ]{confproc}
 
-\usepackage[a5paper, total={6in, 8in}]{geometry}
 \usepackage{setspace}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -44,6 +49,7 @@
 %%%=========== PROCEEDINGS ===========
 \begin{document}
 \frontmatter
+%\includepdf[noautoscale,pages=1,link]{pictures/ex_1stpage.pdf}
 \setcounter{page}{1}
 \pdfbookmark[0]{Preamble}{preamble}
 \pdfbookmark[1]{Cover}{cover}
@@ -85,83 +91,102 @@
 
 \procday{Day 1}
   \session{Oral Session 1}
-    \procpaper[switch=45,%
+    \procpaper[
       title={Multi-label music genre recognition based on spectrograms},%
       author={Bartosz Karpiński},%
       index={\index{Karpiński, Bartosz}},%
     ]{0001}
 
-        \procpaper[switch=45,%
-      title={Multi-label music genre recognition based on spectrograms},%
-      author={Bartosz Karpiński},%
-      index={\index{Karpiński, Bartosz}},%
+        \procpaper[
+      title={Eye opening detection in early neonatal period through CNN},%
+      author={Nuria Velasco-Perez, Juan Arnaez, Nuno Basurto, Daniel Urda},%
+      index={\index{Velasco-Perez, Nuria}\index{Arnaez, Juan}\index{Basurto, Nuno}\index{Urda, Daniel}},%
     ]{0002}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0003}
+    \procpaper[
+      title={Balanced accuracy evaluation of machine learning mofels for self-made photographic documentation of beekeeping frames},%
+      author={Jakub Iwaszkiewicz},%
+      index={\index{Iwaszkiewicz, Jakub}},%
+    ]{0003}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0006}
+    \procpaper[
+      title={Benchmarking automatic license plate recognition: dataset collection and performance evaluation},%
+      author={Oskar Bełza, Wojciech Górecki, Konrad Kuś, Dawid Mrówczyński, Jakub Szczepański, Mikołaj Golański, Piotr Stefański},%
+      index={\index{Bełza, Oskar}\index{Górecki, Wojciech}\index{Kuś, Konrad}\index{Mrówczyński, Dawid}\index{Szczepański, Jakub}\index{Golański, Mikołaj}\index{Stefański, Piotr}},%
+    ]{0004}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0007}
+    \procpaper[
+      title={UAV-based search and rescue: human detection using convolutional neural networks},%
+      author={Felix De Miguel, Carlos Cambra, Nuno Basurto, Daniel Urda, Alvaro Herrero},%
+      index={\index{De Miguel, Fenix}\index{Cambra, Carlos}\index{Basurto, Nuno}\index{Urda, Daniel}\index{Herrero, Alvaro}},%
+    ]{0005}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0008}
+    \procpaper[
+      title={Single-stage autoencoder for IoT intrusion and zero-day threat identification},%
+      author={Sergio Martin Reizabal, Cesar Rodriguez Villagra, Ruben Ruiz Gonzalez, Nuno Basurto},%
+      index={\index{Reizabal, Sergio Martin}\index{Villagra, Cesar Rodriguez}\index{Ruiz, Ruben}\index{Basurto, Nuno}},%
+    ]{0006}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0009}
+    \procpaper[
+      title={Ensemble learning for network traffic prediction: impact of temporal granularity on DDoS forecasting},%
+      author={Amanda Perez Olmos, Sergio Martin Reizabal, Ruben Ruiz Gonzalez, Nuno Basurto},%
+      index={\index{Olmos, Amanda Perez}\index{Reizabal, Sergio Martin}\index{Gonzalez, Ruben Ruiz}\index{Basurto, Nuno}},%
+    ]{0007}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0010}
+    \procpaper[
+      title={Countermeasures in IoT devices using reinforcement learning},%
+      author={Cesar Rodriguez Villagra, Amanda Perez Olmos, Ruben Ruiz Gonzalez, Nuno Basurto},%
+      index={\index{Villagra, Cesar Rodriguez}\index{Olmos, Amanda Perez}\index{Gonzalez, Ruben Ruiz}\index{Basurto, Nuno}},%
+    ]{0008}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0011}
+    \procpaper[
+      title={Hide-and-seek: a multi-agent reinforcement learning simulator},%
+      author={Jakub Szafrański},%
+      index={\index{Szafrański, Jakub}},%
+    ]{0009}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0013}
+    \procpaper[
+      title={Artificial storytellers: evaluating LLMs as game masters in role-playing games},%
+      author={Bartlomiej Gawryszuk, Kacper Pytkiewicz, Szymon Jedrzejczak, Hubert Lozinski, Michal Palski, Kamil Pojedynek, Jakub Watala, Jakub Kartkowski},%
+      index={\index{Gwryszuk, Bartlomiej}\index{Pytkiewicz, Kacper}\index{Jedrzejczak, Szymon}\index{Palski, Michal}\index{Pojedynek, Kamil}\index{Watala, Jakub}\index{Kartkowski, Jakub}},%
+    ]{0010}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0015}
+    \procpaper[
+      title={Design and implementation of a probabilistic bird classification system based on selected modality and meta-information about the distribution of birds in geographical space},%
+      author={Julianna Godziszewska},%
+      index={\index{Godziszewska, Julianna}},%
+    ]{0011}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0017}
+    \procpaper[
+      title={Benchmarking of zk-STARK and zk-SNARK in privacy-preserving federated learning scenario},%
+      author={Lars Blutecher Hulter},%
+      index={\index{Holter, Lars Blutecher}},%
+    ]{0013}
 
-    % \procpaper[switch=45,%
-    %   title={Multi-label music genre recognition based on spectrograms},%
-    %   author={Bartosz Karpiński},%
-    %   index={\index{Karpiński, Bartosz}},%
-    % ]{0019}
+    \procpaper[
+      title={Exploring public space congestion via bluetooth device counting},%
+      author={Dominik Bzdyra, Adrian Waśniewski},%
+      index={\index{Bzdyra, Dominik}\index{Waśniewski, Adrian}},%
+    ]{0015}
+
+    \procpaper[
+      title={Non-invasive and indirec measurement of low sugar concentrations in liquid with the use of ultrasonic sensor},%
+      author={Madhvi Asthana},%
+      index={\index{Asthana, Madhvi}},%
+    ]{0017}
+
+    \procpaper[switch=45,%
+      title={Decentralization in ethereum: correlating beacon chain validators},%
+      author={Markus Andre Tveter},%
+      index={\index{Tveter, Markus Andre}},%
+    ]{0019}
+
+
+    \procpaper[switch=45,%
+      title={Virtual humans for HCI: a design framework for adaptive multimodal agents},%
+      author={Tarun Shyam Ravi},%
+      index={\index{Ravi, Tarun Shyam}},%
+    ]{0020}
 
 
 %%%==== END OF PAPERS ====

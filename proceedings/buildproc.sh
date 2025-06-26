@@ -29,7 +29,7 @@ $MAKEINDEX -s confproc2.ist $TEXFILE.idx
 
 echo; echo; echo; echo; echo; echo; echo $separator; echo $separator;
 echo '*** PdfLaTeX: add toc + insert index and bibliography (4/6) ***'
-$PDFLATEX  $TEXFILE.tex
+$PDFLATEX $TEXFILE.tex
 
 echo; echo; echo; echo; echo; echo; echo $separator; echo $separator;
 echo '*** PdfLaTeX: createupdate toc, index and bib page numbers (5/6) ***'
@@ -38,3 +38,5 @@ $PDFLATEX $TEXFILE.tex
 echo; echo; echo; echo; echo; echo; echo $separator; echo $separator;
 echo '*** PdfLaTeX: mod. class insertion, for proper PDF links for full papers (6/6) ***'
 $PDFLATEX $TEXFILE.tex
+
+cp main.pdf foo.pdf

@@ -69,7 +69,7 @@ For training, only samples from the known classes were used to train the combine
 The proposed single-stage architecture integrates zero-day detection and multiclass classification in a single pass. First, the autoencoder computes the reconstruction error of each input against a predefined threshold; samples exceeding the threshold are flagged as potential zero-day attacks and omitted from further classification. If the reconstruction error is below the threshold, the corresponding latent representation is immediately passed to the classification head to predict one of the known attack classes or normal traffic.
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{Springer Lecture Notes in Computer Science (1)/imgs/Single-Stage-AE.png}
+    \includegraphics[width=\textwidth]{imgs/Single-Stage-AE.png}
     \caption{Single-stage autoencoder–classifier architecture.}
     \label{fig:model_architecture}
 \end{figure}
@@ -144,7 +144,7 @@ The threshold cleanly separates most zero‑day samples while preserving the vas
 \begin{figure}[htbp]
     \centering
     %\includegraphics[width=0.55\textwidth]{imgs/error_distribution.png}
-    \includegraphics[width=0.8\textwidth]{Springer Lecture Notes in Computer Science (1)/imgs/ViolinPlot.png}
+    \includegraphics[width=0.8\textwidth]{imgs/ViolinPlot.png}
     \caption{Violin plot of the reconstruction error (MSE) for known (blue) versus zero‑day (red) traffic. The dashed horizontal line denotes the threshold ($7.7\!\times\!10^{-3}$).}
     \label{fig:error_hist}
 \end{figure}

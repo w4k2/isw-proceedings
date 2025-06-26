@@ -1,35 +1,8 @@
-% This is samplepaper.tex, a sample chapter demonstrating the
-% LLNCS macro package for Springer Computer Science proceedings;
-% Version 2.21 of 2022/01/12
-%
 \documentclass[runningheads]{llncs}
-%
 \usepackage[T1]{fontenc}
-% T1 fonts will be used to generate the final print and online PDFs,
-% so please use T1 fonts in your manuscript whenever possible.
-% Other font encondings may result in incorrect characters.
-%
 \usepackage{graphicx}
 \usepackage{float}
-% Used for displaying a sample figure. If possible, figure files should
-% be included in EPS format.
-%
-% If you use the hyperref package, please uncomment the following two lines
-% to display URLs in blue roman font according to Springer's eBook style:
-%\usepackage{color}
-%\renewcommand\UrlFont{\color{blue}\rmfamily}
-%\urlstyle{rm}
-%
-\usepackage{comment}
-\usepackage[hyphens]{url}
-
-\usepackage[
-backend=biber,
-style=alphabetic,
-sorting=ynt
-]{biblatex}
-
-\addbibresource{biblio.bib}
+\usepackage[sort]{cite}
 
 
 
@@ -205,6 +178,10 @@ Our research shows that validators that often go offline together are likely run
 Limitations exist such as downtime can happen by coincidence, for instance during regional outages or client bugs, and operators can spread their infrastructure to avoid detection and larger operators often do so anyways. Future work should address this by combining our approach with other data, like onchain fee recipients or deposit addresses.
 
 The toolkit is already implemented and specified. Final data collection and a full-scale analysis of validator clusters across historical epochs will be finished by July 2025 as part of the Master’s thesis conclusion. The subsequent publication will present quantitative results on Ethereum’s decentralization, including cluster size distributions, Nakamoto coefficients, and centralization risk assessments based on the complete dataset.
+
+
+\bibliographystyle{splncs04}
+\bibliography{biblio}
 
 \printbibliography
 \end{document}
