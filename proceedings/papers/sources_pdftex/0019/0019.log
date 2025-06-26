@@ -1,0 +1,720 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.9)  26 JUN 2025 16:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**0019
+(./0019.tex
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/llncs/llncs.cls
+Document Class: llncs 2025/02/25 v2.26 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count283
+\mult@box=\box53
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count284
+\c@collectmore=\count285
+\doublecol@number=\count286
+\multicoltolerance=\count287
+\multicolpretolerance=\count288
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count289
+\c@columnbadness=\count290
+\c@finalcolumnbadness=\count291
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count292
+\g__mc_curr_col_int=\count293
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count294
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 379.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 382.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 383.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 384.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 385.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 386.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 387.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 388.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 389.
+LaTeX Info: Redefining \vec on input line 394.
+\tocchpnum=\dimen158
+\tocsecnum=\dimen159
+\tocsectotal=\dimen160
+\tocsubsecnum=\dimen161
+\tocsubsectotal=\dimen162
+\tocsubsubsecnum=\dimen163
+\tocsubsubsectotal=\dimen164
+\tocparanum=\dimen165
+\tocparatotal=\dimen166
+\tocsubparanum=\dimen167
+\@tempcntc=\count295
+\fnindent=\dimen168
+\c@@inst=\count296
+\c@@auth=\count297
+\c@auco=\count298
+\instindent=\dimen169
+\authrun=\box99
+\authorrunning=\toks17
+\tocauthor=\toks18
+\titrun=\box100
+\titlerunning=\toks19
+\toctitle=\toks20
+\c@theorem=\count299
+\c@case=\count300
+\c@conjecture=\count301
+\c@corollary=\count302
+\c@definition=\count303
+\c@example=\count304
+\c@exercise=\count305
+\c@lemma=\count306
+\c@note=\count307
+\c@problem=\count308
+\c@property=\count309
+\c@proposition=\count310
+\c@question=\count311
+\c@solution=\count312
+\c@remark=\count313
+\headlineindent=\dimen170
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count314
+\float@exts=\toks22
+\float@box=\box101
+\@float@everytoks=\toks23
+\@floatcapt=\box102
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count315
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count316
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count317
+\c@listtotal=\count318
+\c@listcount=\count319
+\c@liststart=\count320
+\c@liststop=\count321
+\c@citecount=\count322
+\c@citetotal=\count323
+\c@multicitecount=\count324
+\c@multicitetotal=\count325
+\c@instcount=\count326
+\c@maxnames=\count327
+\c@minnames=\count328
+\c@maxitems=\count329
+\c@minitems=\count330
+\c@citecounter=\count331
+\c@maxcitecounter=\count332
+\c@savedcitecounter=\count333
+\c@uniquelist=\count334
+\c@uniquename=\count335
+\c@refsection=\count336
+\c@refsegment=\count337
+\c@maxextratitle=\count338
+\c@maxextratitleyear=\count339
+\c@maxextraname=\count340
+\c@maxextradate=\count341
+\c@maxextraalpha=\count342
+\c@abbrvpenalty=\count343
+\c@highnamepenalty=\count344
+\c@lownamepenalty=\count345
+\c@maxparens=\count346
+\c@parenlevel=\count347
+\blx@tempcnta=\count348
+\blx@tempcntb=\count349
+\blx@tempcntc=\count350
+\c@blx@maxsection=\count351
+\blx@maxsegment@0=\count352
+\blx@notetype=\count353
+\blx@parenlevel@text=\count354
+\blx@parenlevel@foot=\count355
+\blx@sectionciteorder@0=\count356
+\blx@sectionciteorderinternal@0=\count357
+\blx@entrysetcounter=\count358
+\blx@biblioinstance=\count359
+\labelnumberwidth=\skip53
+\labelalphawidth=\skip54
+\biblabelsep=\skip55
+\bibitemsep=\skip56
+\bibnamesep=\skip57
+\bibinitsep=\skip58
+\bibparsep=\skip59
+\bibhang=\skip60
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\blx@langwohyphens=\language90
+\c@mincomprange=\count360
+\c@maxcomprange=\count361
+\c@mincompwidth=\count362
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count363
+\c@savedafterword=\count364
+\c@annotator=\count365
+\c@savedannotator=\count366
+\c@author=\count367
+\c@savedauthor=\count368
+\c@bookauthor=\count369
+\c@savedbookauthor=\count370
+\c@commentator=\count371
+\c@savedcommentator=\count372
+\c@editor=\count373
+\c@savededitor=\count374
+\c@editora=\count375
+\c@savededitora=\count376
+\c@editorb=\count377
+\c@savededitorb=\count378
+\c@editorc=\count379
+\c@savededitorc=\count380
+\c@foreword=\count381
+\c@savedforeword=\count382
+\c@holder=\count383
+\c@savedholder=\count384
+\c@introduction=\count385
+\c@savedintroduction=\count386
+\c@namea=\count387
+\c@savednamea=\count388
+\c@nameb=\count389
+\c@savednameb=\count390
+\c@namec=\count391
+\c@savednamec=\count392
+\c@translator=\count393
+\c@savedtranslator=\count394
+\c@shortauthor=\count395
+\c@savedshortauthor=\count396
+\c@shorteditor=\count397
+\c@savedshorteditor=\count398
+\c@labelname=\count399
+\c@savedlabelname=\count400
+\c@institution=\count401
+\c@savedinstitution=\count402
+\c@lista=\count403
+\c@savedlista=\count404
+\c@listb=\count405
+\c@savedlistb=\count406
+\c@listc=\count407
+\c@savedlistc=\count408
+\c@listd=\count409
+\c@savedlistd=\count410
+\c@liste=\count411
+\c@savedliste=\count412
+\c@listf=\count413
+\c@savedlistf=\count414
+\c@location=\count415
+\c@savedlocation=\count416
+\c@organization=\count417
+\c@savedorganization=\count418
+\c@origlocation=\count419
+\c@savedoriglocation=\count420
+\c@origpublisher=\count421
+\c@savedorigpublisher=\count422
+\c@publisher=\count423
+\c@savedpublisher=\count424
+\c@language=\count425
+\c@savedlanguage=\count426
+\c@origlanguage=\count427
+\c@savedoriglanguage=\count428
+\c@pageref=\count429
+\c@savedpageref=\count430
+\shorthandwidth=\skip61
+\shortjournalwidth=\skip62
+\shortserieswidth=\skip63
+\shorttitlewidth=\skip64
+\shortauthorwidth=\skip65
+\shorteditorwidth=\skip66
+\locallabelnumberwidth=\skip67
+\locallabelalphawidth=\skip68
+\localshorthandwidth=\skip69
+\localshortjournalwidth=\skip70
+\localshortserieswidth=\skip71
+\localshorttitlewidth=\skip72
+\localshortauthorwidth=\skip73
+\localshorteditorwidth=\skip74
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count431
+\c@textcitetotal=\count432
+\c@textcitemaxnames=\count433
+\c@biburlbigbreakpenalty=\count434
+\c@biburlbreakpenalty=\count435
+\c@biburlnumpenalty=\count436
+\c@biburlucpenalty=\count437
+\c@biburllcpenalty=\count438
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count439
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
+File: alphabetic.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count440
+\c@bbx:relatedtotal=\count441
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
+File: alphabetic.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-05-26 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count442
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-05-26 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+\@quotelevel=\count443
+\@quotereset=\count444
+
+(./0019.aux)
+\openout1 = `0019.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count445
+\scratchdimen=\dimen173
+\scratchbox=\box103
+\nofMPsegments=\count446
+\nofMParguments=\count447
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count448
+\MPscratchDim=\dimen174
+\MPnumerator=\count449
+\makeMPintoPDFobject=\count450
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `0019.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '0019.bbl' found.
+
+(./0019.bbl)
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 55.
+
+
+LaTeX Warning: Citation 'staking2025' on page 1 undefined on input line 78.
+
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
+/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+LaTeX Warning: Citation 'exec_meeting208_2025' on page 2 undefined on input lin
+e 88.
+
+
+LaTeX Warning: Citation 'eip7251_2023' on page 2 undefined on input line 91.
+
+
+Overfull \hbox (74.67624pt too wide) in paragraph at lines 88--95
+\T1/cmr/m/n/10 Pectra is a hard-fork up-date to Ethereum that launched in May 2
+025 [[]].
+ []
+
+
+LaTeX Warning: Citation 'eip7716_2024_vitalikethresear' on page 2 undefined on 
+input line 97.
+
+
+LaTeX Warning: Citation 'eip7716_2024_ethresear' on page 2 undefined on input l
+ine 97.
+
+
+LaTeX Warning: Citation 'eip7716_2024' on page 2 undefined on input line 97.
+
+
+Overfull \hbox (36.51334pt too wide) in paragraph at lines 96--98
+\T1/cmr/m/n/10 cor-re-lated be-hav-ior. EIP-7716 is a pro-posal for this [[]].
+ []
+
+
+Overfull \hbox (30.40926pt too wide) in paragraph at lines 96--98
+\T1/cmr/m/n/10 ida-tors [[]]. This EIP is cur-rently stag-nant [[]],
+ []
+
+
+LaTeX Warning: Citation 'eip7716_2024_vitalikethresear' on page 2 undefined on 
+input line 102.
+
+
+LaTeX Warning: Citation 'heimbach2024deanonymizing' on page 2 undefined on inpu
+t line 106.
+
+
+
+[2]
+
+LaTeX Warning: Citation 'grandjean2023ethereum' on page 3 undefined on input li
+ne 110.
+
+
+LaTeX Warning: Citation 'brown2024exploring' on page 3 undefined on input line 
+115.
+
+
+Overfull \hbox (65.87978pt too wide) in paragraph at lines 115--116
+\T1/cmr/m/n/10 as client us-age, re-lay-ers, node op-er-a-tors, and ge-o-graph-
+i-cal dis-tri-bu-tion  [[]].
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[3]
+
+LaTeX Warning: Citation 'beaconchain2025' on page 4 undefined on input line 127
+.
+
+
+LaTeX Warning: Citation 'gasper2025' on page 4 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'eip7716_2024_ethresear' on page 4 undefined on input l
+ine 130.
+
+
+Overfull \hbox (15.15605pt too wide) in paragraph at lines 127--134
+\T1/cmr/m/n/10 sim-ple for users to ver-ify that there is a lot of eco-nomic se
+-cu-rity [[]].
+ []
+
+
+LaTeX Warning: Citation '2023offchainlabs' on page 4 undefined on input line 13
+5.
+
+<image.png, id=23, 2282.5275pt x 1353.055pt>
+File: image.png Graphic file (type png)
+<use image.png>
+Package pdftex.def Info: image.png  used on input line 140.
+(pdftex.def)             Requested size: 277.69987pt x 164.61pt.
+
+LaTeX Warning: Citation 'hildobby2025' on page 4 undefined on input line 141.
+
+
+
+[4]
+
+LaTeX Warning: Citation 'beaconchain_epochs2025' on page 5 undefined on input l
+ine 145.
+
+
+
+[5 <./image.png>]
+
+[6]
+
+LaTeX Warning: Citation 'eip7716_2024_vitalikethresear' on page 7 undefined on 
+input line 187.
+
+
+Overfull \hbox (5.08023pt too wide) in paragraph at lines 187--188
+[]\T1/cmr/m/n/10 The re-sults are com-pared with a dataset  [[]]
+ []
+
+
+LaTeX Warning: Citation 'rated2025' on page 7 undefined on input line 193.
+
+
+LaTeX Warning: Citation 'vanom_lido2025' on page 7 undefined on input line 194.
+
+
+
+LaTeX Warning: Citation 'eip7716_2024_ethresear' on page 7 undefined on input l
+ine 196.
+
+
+
+[7]
+
+LaTeX Warning: Empty bibliography on input line 209.
+
+
+
+[8] (./0019.aux)
+ ***********
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                0019
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to '0019.run.xml'.
+\openout1 = `0019.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10362 strings out of 467892
+ 193683 string characters out of 5434150
+ 1032272 words of memory out of 5000000
+ 38837 multiletter control sequences out of 15000+600000
+ 634637 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,6n,66p,931b,1518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local
+/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on 0019.pdf (8 pages, 943319 bytes).
+PDF statistics:
+ 92 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

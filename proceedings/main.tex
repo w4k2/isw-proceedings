@@ -1,0 +1,172 @@
+ \documentclass[
+    letterpaper,10pt,%
+    printed,% [printed] | electronic
+    oneside,
+    onesidepapers,
+    papers=countpages,% empty | draft | [final] | countpages
+    paperselec=all, %[all] | p_001 | p_fake
+    hyperref={
+        bookmarksdepth=1,
+        bookmarksopen,
+        bookmarksopenlevel=0,%
+        linkcolor=blue,urlcolor=blue
+    },%
+    geometry={
+        text={100truemm,226truemm},% A4 & letter
+        inner=0.805in,top=29.15mm,
+        bottom=24.5mm,footskip=9.68mm,
+        voffset=-5mm
+    },%letter
+]{confproc}
+
+\usepackage[a5paper, total={6in, 8in}]{geometry}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[super]{nth}
+
+\renewcommand{\procpdfauthor }{{[Proceedings editor], Wroclaw University of Science and Technology}}
+\renewcommand{\procpdftitle }{{ISW Proceedings}}
+\renewcommand{\procpdfsubject }{{Proc. of the Xth International Students Workshop (ISW), Kamienna Góra, Poland, [Dates]}}
+
+\renewcommand{\procchead }{} %
+\renewcommand{\proclhead }{{\em \small \procpdfsubject}}
+
+\author{\procpdfauthor}
+\title{\procpdftitle}
+\date{\today}
+
+\renewcommand{\PAPERPATH }{papers/}
+
+\makeindex
+
+%%%=========== PROCEEDINGS ===========
+\begin{document}
+\frontmatter
+\setcounter{page}{1}
+\pdfbookmark[0]{Preamble}{preamble}
+\pdfbookmark[1]{Cover}{cover}
+\maketitle
+\newpage
+
+\otherpagestyle
+
+%%%-- Welcome letters
+\clearsingleordoublepage
+\vspace*{0.6cm}
+\thisotherpagestyle
+\pdfbookmark[1]{Welcome from Firstname Lastname}{welcome}
+\section*{Welcome from Firstname Lastname, Conference Chair}
+\vspace*{1.1cm}
+\onehalfspace
+\begin{center}
+  \begin{minipage}[h]{14cm}
+    Text of the welcome letter, with 1.5 lines spacing, blah blah...
+    Text of the welcome letter, with 1.5 lines spacing, blah blah...
+    Text of the welcome letter, with 1.5 lines spacing, blah blah...
+    Text of the welcome letter, with 1.5 lines spacing, blah blah...
+  \end{minipage}
+\end{center}
+\doublespace
+\begin{center}
+  \begin{minipage}[h]{14cm}
+    Text of the welcome letter, with 2 lines spacing, blah blah...
+    Text of the welcome letter, with 2 lines spacing, blah blah...
+    Text of the welcome letter, with 2 lines spacing, blah blah...
+    Text of the welcome letter, with 2 lines spacing, blah blah...
+  \end{minipage}
+\end{center}
+\singlespace
+\tableofcontents
+
+%%%==== BEGINNING OF PAPERS ====
+\mainmatter
+
+\procday{Day 1}
+  \session{Oral Session 1}
+    \procpaper[switch=45,%
+      title={Multi-label music genre recognition based on spectrograms},%
+      author={Bartosz Karpiński},%
+      index={\index{Karpiński, Bartosz}},%
+    ]{0001}
+
+        \procpaper[switch=45,%
+      title={Multi-label music genre recognition based on spectrograms},%
+      author={Bartosz Karpiński},%
+      index={\index{Karpiński, Bartosz}},%
+    ]{0002}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0003}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0006}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0007}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0008}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0009}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0010}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0011}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0013}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0015}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0017}
+
+    % \procpaper[switch=45,%
+    %   title={Multi-label music genre recognition based on spectrograms},%
+    %   author={Bartosz Karpiński},%
+    %   index={\index{Karpiński, Bartosz}},%
+    % ]{0019}
+
+
+%%%==== END OF PAPERS ====
+
+\backmatter
+
+\insertindex
+\end{document}

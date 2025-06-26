@@ -1,0 +1,68 @@
+\begin{thebibliography}{1}
+
+\bibitem{Animal_Sound_Archive}
+Museum für Naturkunde~Berlin.
+\newblock Animal sound archive.
+\newblock Occurrence dataset, 2024.
+\newblock Dostęp poprzez GBIF.org 23 listopada 2024.
+\newblock \href {https://doi.org/10.15468/0bpalr} {\path{doi:10.15468/0bpalr}}.
+
+\bibitem{botanicgarden2019}
+Botanic Garden and Botanical~Museum Berlin.
+\newblock Bobo - botanic garden and botanical museum berlin observations.
+\newblock Occurrence dataset, 2019.
+\newblock Dostęp poprzez GBIF.org 23 listopada 2024.
+\newblock \href {https://doi.org/10.15468/9ll2gz} {\path{doi:10.15468/9ll2gz}}.
+
+\bibitem{inaturalist2024}
+{iNaturalist contributors}.
+\newblock inaturalist research-grade observations.
+\newblock Occurrence dataset, 2024.
+\newblock Dostęp poprzez GBIF.org 23 listopada 2024.
+\newblock \href {https://doi.org/10.15468/ab3s5x} {\path{doi:10.15468/ab3s5x}}.
+
+\bibitem{Combination_of__KDE_in_Classification}
+Mateusz Kobos.
+\newblock Combination of independent kernel density estimators in
+  classification.
+\newblock In {\em 2009 International Multiconference on Computer Science and
+  Information Technology}, pages 57--63, 2009.
+\newblock \href {https://doi.org/10.1109/IMCSIT.2009.5352749}
+  {\path{doi:10.1109/IMCSIT.2009.5352749}}.
+
+\bibitem{observation2024}
+Observation.org.
+\newblock Observation.org, nature data from around the world.
+\newblock Occurrence dataset, 2024.
+\newblock Dostęp poprzez GBIF.org 23 listopada 2024.
+\newblock \href {https://doi.org/10.15468/5nilie} {\path{doi:10.15468/5nilie}}.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{My_naturesounds}
+V.~Runnel.
+\newblock My naturesounds - nature observations with sound recordings.
+\newblock PlutoF. Occurrence dataset, 2024.
+\newblock Dostęp poprzez GBIF.org 23 listopada 2024.
+\newblock \href {https://doi.org/10.15468/hnheni} {\path{doi:10.15468/hnheni}}.
+
+\bibitem{bandwidth}
+Simon Sheather.
+\newblock Density estimation.
+\newblock {\em Statistical Science}, 19, 11 2004.
+\newblock \href {https://doi.org/10.1214/088342304000000297}
+  {\path{doi:10.1214/088342304000000297}}.
+
+\bibitem{Xeno-canto}
+W.~Vellinga.
+\newblock Xeno-canto - bird sounds from around the world.
+\newblock Occurrence dataset, 2024.
+\newblock Dostęp poprzez GBIF.org 23 listopada 2024.
+\newblock \href {https://doi.org/10.15468/qv0ksn} {\path{doi:10.15468/qv0ksn}}.
+
+\end{thebibliography}

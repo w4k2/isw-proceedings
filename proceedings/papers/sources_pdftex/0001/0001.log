@@ -1,0 +1,382 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.9)  26 JUN 2025 16:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**0001
+(./0001.tex
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/llncs/llncs.cls
+Document Class: llncs 2025/02/25 v2.26 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count283
+\mult@box=\box53
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count284
+\c@collectmore=\count285
+\doublecol@number=\count286
+\multicoltolerance=\count287
+\multicolpretolerance=\count288
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count289
+\c@columnbadness=\count290
+\c@finalcolumnbadness=\count291
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count292
+\g__mc_curr_col_int=\count293
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count294
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 379.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 382.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 383.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 384.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 385.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 386.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 387.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 388.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 389.
+LaTeX Info: Redefining \vec on input line 394.
+\tocchpnum=\dimen158
+\tocsecnum=\dimen159
+\tocsectotal=\dimen160
+\tocsubsecnum=\dimen161
+\tocsubsectotal=\dimen162
+\tocsubsubsecnum=\dimen163
+\tocsubsubsectotal=\dimen164
+\tocparanum=\dimen165
+\tocparatotal=\dimen166
+\tocsubparanum=\dimen167
+\@tempcntc=\count295
+\fnindent=\dimen168
+\c@@inst=\count296
+\c@@auth=\count297
+\c@auco=\count298
+\instindent=\dimen169
+\authrun=\box99
+\authorrunning=\toks17
+\tocauthor=\toks18
+\titrun=\box100
+\titlerunning=\toks19
+\toctitle=\toks20
+\c@theorem=\count299
+\c@case=\count300
+\c@conjecture=\count301
+\c@corollary=\count302
+\c@definition=\count303
+\c@example=\count304
+\c@exercise=\count305
+\c@lemma=\count306
+\c@note=\count307
+\c@problem=\count308
+\c@property=\count309
+\c@proposition=\count310
+\c@question=\count311
+\c@solution=\count312
+\c@remark=\count313
+\headlineindent=\dimen170
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen173
+\captionmargin=\dimen174
+\caption@leftmargin=\dimen175
+\caption@rightmargin=\dimen176
+\caption@width=\dimen177
+\caption@indent=\dimen178
+\caption@parindent=\dimen179
+\caption@hangindent=\dimen180
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
+tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
+fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
+tempboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count314
+\c@continuedfloat=\count315
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count316
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count317
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count318
+)
+(./0001.aux)
+\openout1 = `0001.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count319
+\scratchdimen=\dimen181
+\scratchbox=\box101
+\nofMPsegments=\count320
+\nofMParguments=\count321
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen182
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 42.
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
+/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[3]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 84.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 84.
+<img/default_normal.png, id=21, 250.9375pt x 250.9375pt>
+File: img/default_normal.png Graphic file (type png)
+<use img/default_normal.png>
+Package pdftex.def Info: img/default_normal.png  used on input line 105.
+(pdftex.def)             Requested size: 166.61781pt x 166.62627pt.
+<img/default_mel.png, id=23, 250.9375pt x 250.9375pt>
+File: img/default_mel.png Graphic file (type png)
+<use img/default_mel.png>
+Package pdftex.def Info: img/default_mel.png  used on input line 109.
+(pdftex.def)             Requested size: 166.61781pt x 166.62627pt.
+<img/reduced.png, id=24, 495.7722pt x 512.3943pt>
+File: img/reduced.png Graphic file (type png)
+<use img/reduced.png>
+Package pdftex.def Info: img/reduced.png  used on input line 113.
+(pdftex.def)             Requested size: 166.61781pt x 172.2024pt.
+<img/scaled.png, id=25, 453.94594pt x 468.24937pt>
+File: img/scaled.png Graphic file (type png)
+<use img/scaled.png>
+Package pdftex.def Info: img/scaled.png  used on input line 117.
+(pdftex.def)             Requested size: 166.61781pt x 171.86343pt.
+
+
+[4]
+
+[5 <./img/default_normal.png> <./img/default_mel.png> <./img/reduced.png> <./im
+g/scaled.png>]
+<img/prec.png, id=37, 391.791pt x 388.068pt>
+File: img/prec.png Graphic file (type png)
+<use img/prec.png>
+Package pdftex.def Info: img/prec.png  used on input line 148.
+(pdftex.def)             Requested size: 156.20453pt x 154.72112pt.
+<img/rec.png, id=38, 391.791pt x 388.068pt>
+File: img/rec.png Graphic file (type png)
+<use img/rec.png>
+Package pdftex.def Info: img/rec.png  used on input line 154.
+(pdftex.def)             Requested size: 156.20453pt x 154.72112pt.
+
+
+[6 <./img/prec.png> <./img/rec.png>]
+<img/f1.png, id=44, 421.137pt x 417.195pt>
+File: img/f1.png Graphic file (type png)
+<use img/f1.png>
+Package pdftex.def Info: img/f1.png  used on input line 169.
+(pdftex.def)             Requested size: 156.20453pt x 154.74168pt.
+<img/bac.png, id=45, 421.137pt x 417.195pt>
+File: img/bac.png Graphic file (type png)
+<use img/bac.png>
+Package pdftex.def Info: img/bac.png  used on input line 175.
+(pdftex.def)             Requested size: 156.20453pt x 154.74168pt.
+<img/ex3.png, id=46, 422.67pt x 418.509pt>
+File: img/ex3.png Graphic file (type png)
+<use img/ex3.png>
+Package pdftex.def Info: img/ex3.png  used on input line 187.
+(pdftex.def)             Requested size: 156.20453pt x 154.6671pt.
+<img/ex5.png, id=47, 421.356pt x 417.195pt>
+File: img/ex5.png Graphic file (type png)
+<use img/ex5.png>
+Package pdftex.def Info: img/ex5.png  used on input line 193.
+(pdftex.def)             Requested size: 156.20453pt x 154.6653pt.
+
+
+[7 <./img/f1.png> <./img/bac.png>]
+
+[8 <./img/ex3.png> <./img/ex5.png>]
+
+[9] (./0001.aux)
+ ***********
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3638 strings out of 467892
+ 61072 string characters out of 5434150
+ 469140 words of memory out of 5000000
+ 32189 multiletter control sequences out of 15000+600000
+ 636147 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,9n,77p,2100b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local
+/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on 0001.pdf (9 pages, 1003515 bytes).
+PDF statistics:
+ 105 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

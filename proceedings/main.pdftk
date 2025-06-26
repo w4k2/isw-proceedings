@@ -1,0 +1,2 @@
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dFirstPage=1 -dLastPage=9 -sOUTPUTFILE=${SPPATH}/0001.pdf ${PDFFILE}
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dFirstPage=11 -dLastPage=18 -sOUTPUTFILE=${SPPATH}/0002.pdf ${PDFFILE}

@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{bilge_2012}
+Bilge, L., Dumitras, T.: Before we knew it: An empirical study of zero-day
+  attacks in the real world. In: Proceedings of the 2012 ACM Conference on
+  Computer and Communications Security. pp. 833--844. ACM, New York, NY, USA
+  (2012). \doi{10.1145/2382196.2382284}
+
+\bibitem{10851751}
+El~Husseini, F., Noura, H., Salman, O., Chehab, A.: Advanced machine learning
+  approaches for zero-day attack detection: A review. In: 2024 8th Cyber
+  Security in Networking Conference (CSNet). pp. 297--304 (2024).
+  \doi{10.1109/CSNet64211.2024.10851751}
+
+\bibitem{mirsky_2018}
+Mirsky, Y., Doitshman, T., Elovici, Y., Shabtai, A.: Kitsune: An ensemble of
+  autoencoders for online network intrusion detection. In: Proceedings of the
+  Network and Distributed System Security Symposium (NDSS). San Diego, CA
+  (February 2018). \doi{10.14722/ndss.2018.23233}
+
+\bibitem{moustafa_2015}
+Moustafa, N., Slay, J.: Unsw-nb15: A comprehensive data set for network
+  intrusion detection systems. In: 2015 Military Communications and Information
+  Systems Conference (MilCIS). pp.~1--6. IEEE, Canberra, Australia (November
+  2015). \doi{10.1109/MilCIS.2015.7348942}
+
+\bibitem{10577735}
+Reardon, S., Hssayeni, M.D., Mahgoub, I.: Detection of zero-day attacks on iot.
+  In: 2024 International Conference on Smart Applications, Communications and
+  Networking (SmartNets). pp.~1--5 (2024).
+  \doi{10.1109/SmartNets61466.2024.10577735}
+
+\end{thebibliography}

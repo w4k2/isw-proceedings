@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{Gasmi2023}
+Gasmi, R., Hammoudi, S., Lamri, M., Harous, S.: Recent reinforcement learning
+  and blockchain based security solutions for internet of things: Survey.
+  Wireless Personal Communications  \textbf{132},  1307--1345 (9 2023).
+  \doi{10.1007/s11277-023-10664-1}
+
+\bibitem{Liu2018}
+Liu, Y., Dong, M., Ota, K., Li, J., Wu, J.: Deep reinforcement learning based
+  smart mitigation of ddos flooding in software-defined networks. In: IEEE
+  International Workshop on Computer Aided Modeling and Design of Communication
+  Links and Networks, CAMAD. vol. 2018-September (2018).
+  \doi{10.1109/CAMAD.2018.8514971}
+
+\bibitem{Sewak2023}
+Sewak, M., Sahay, S.K., Rathore, H.: Deep reinforcement learning in the
+  advanced cybersecurity threat detection and protection. Information Systems
+  Frontiers  \textbf{25} (2023). \doi{10.1007/s10796-022-10333-x}
+
+\bibitem{Yungaicela-Naula2022}
+Yungaicela-Naula, N.M., Vargas-Rosales, C., Pérez-Díaz, J.A., Carrera, D.F.:
+  A flexible sdn-based framework for slow-rate ddos attack mitigation by using
+  deep reinforcement learning. Journal of Network and Computer Applications
+  \textbf{205} (2022). \doi{10.1016/j.jnca.2022.103444}
+
+\end{thebibliography}

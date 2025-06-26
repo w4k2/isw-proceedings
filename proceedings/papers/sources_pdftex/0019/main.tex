@@ -1,0 +1,210 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage[T1]{fontenc}
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+\usepackage{graphicx}
+\usepackage{float}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%\urlstyle{rm}
+%
+\usepackage{comment}
+\usepackage[hyphens]{url}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+
+\addbibresource{biblio.bib}
+
+
+
+\begin{document}
+%
+\title{Decentralization in Ethereum: Correlating Beacon Chain Validators}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Markus André Tveter}
+
+%
+\authorrunning{M.~A.~Tveter}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{Norwegian University of Science and Technology, Gjøvik, Norway \\
+Supervisor: Mariusz Nowostawski \vspace{0.5\baselineskip} \\
+\email{markusat@stud.ntnu.no}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+Ethereum is a leading, globally used, smart contract block\-chain.
+The Ethereum protocol transitioned to {\em proof of stake}, meaning the network is secured by validators who stake Ether.
+Ether is the cryptocurrency used on Ethereum. Currently, most users rely on third party websites, analytics services, onchain data, or self-reporting by staking entities to determine which entities control specific validators.
+This project analyzes Ethereum's decentralization by correlating validators based on their uptime and downtime patterns. The correlation allows identifying whether validators are controlled by the same entity.
+The project develops open source tools that allow anyone running a node on Ethereum to verify the degree of decentralization without trusting third parties.
+
+\keywords{Ethereum  \and Beacon chain \and Validator clustering.}
+\end{abstract}
+
+% ================================================================
+\section{Introduction}
+Blockchains are considered valuable as they enable the creation of digital scarcity.
+For instance, Ether on Ethereum cannot easily be duplicated due to how block\-chains ensure that everyone agrees on a state following certain rules.
+Ethereum is one of the most widely used and influential blockchains in the world.
+Ethereum pioneered the use of smart contracts.
+These contracts allow anyone to deploy code to the blockchain and actions can be executed autonomously. 
+The goal of the chain is to be open source, decentralized, immutable, censorship resistant, trustless and accessible to anyone.
+These features are enabled by the Ethereum network acting reliably, which is possible as a result of a consensus mechanism that ensures that everyone agrees on the same state and prevents malicious behaviour. 
+In order for the consensus mechanism to be trustworthy, it relies on many entities participating such that no single entity can maliciously manipulate the state of the network.
+
+Validators are virtual entities on Ethereum that verify and add new blocks to the network by participating in the consensus mechanism~\cite{staking2025}.
+This research aims to assess Ethereum's level of decentralization by analyzing correlations among validators.
+We use the downtime patterns for validators to gain information about which validators go offline at the same time.
+As multiple validators usually belong to the same machine, this allows us to correlate which validators belong to the same machine on the network.
+When we do this with every validator on the network over a period of time, it allows us to map out which validators belong to which machine over time.
+Furthermore, the project aims to allow any user to be able to verify these correlations themselves.
+This is achievable as validator data can be collected by anyone running an Ethereum node, resulting in users not having to trust third parties to assess how decentralized the chain is.
+
+% =========================================
+\section{Related work}
+Pectra is a hard-fork update to Ethereum that launched in May 2025~\cite{exec_meeting208_2025}.
+In this update, EIP7251 "Increase the MAX EFFECTIVE BALANCE" was introduced, which allows validators to consolidate staked Ether into a single validator.
+Originally, only $32$~Ether could be staked by a single validator, and multiple validators had to be launched to stake multiples of $32$~Ether.
+After the Pectra update, anything between $32$ to $2048$~Ether can be staked with a single validator~\cite{eip7251_2023}.
+This means that there will likely be many consolidating validators, resulting in a lower number of validators in total on the network. For smaller operators, this might mean that one would run one validator if one chooses to consolidate instead of multiple, as was done prior to the update.
+However, correlating validators will remain useful as many staking operators on the network are staking more than 2048 Ether and will have to run multiple validators. 
+Additionally, there is an opportunity to compare datasets before and after Pectra to evaluate the difference consolidated validators have on the results.
+
+Previous research by Ethereum researchers has explored correlating validators to develop strategies that impose increased penalties on validators exhibiting correlated behavior.
+EIP-7716 is a proposal for this~\cite{eip7716_2024_vitalikethresear}. The proposal suggests adjusting the penalty factor for the validators based on the correlation between the validators to strengthen the decentralization of the validators~\cite{eip7716_2024_ethresear}. This EIP is currently stagnant~\cite{eip7716_2024}, as a result, there is an opportunity to further improve the correlation between validators and contribute to the EIP's inclusion in Ethereum. 
+
+The methodology used to find correlation among validators as proposed in EIP-7716 is a helpful example of how validator correlation can be done, and the findings highlight that correlating validators on the network generally works well. 
+It finds that two validators in the same cluster were much more likely to miss attestations at the same time than two validators in different clusters. The methodology used to find validator correlation is detecting when validators miss an attestation for the same slot. 
+Validators are clustered together based on their attestation performance, and then compared with a dataset that includes publicly known clusters to see if the correlation clustering is accurate. 
+The results indicate that there is a much higher correlation in real clusters than what could happen by chance, proving that this method to find correlation among validators is effective~\cite{eip7716_2024_vitalikethresear}. 
+
+Studies by Heimbach et al.~(2024) have shown that Ethereum's P2P network has an issue that enables the possibility to find the IP address associated with validators by running a node on the network. 
+By running four nodes on the network over three days, the study identified more than 15\% of Ethereum validators. 
+By noticing when a peer on the network forwards attestations from a subnet that it is not assigned to, the researchers are able to infer which validators are behind which IP addresses~\cite{heimbach2024deanonymizing}. 
+This highlights that there is a privacy issue on the network and a risk of denial of service attacks. 
+It presents an alternative method for evaluating the decentralization of Ethereum validators. 
+
+Research by Dominic Grandjean et al.~(2024) does a comprehensive study of the state of the beacon chain. The paper finds that network performance is affected by network upgrades, consensus client issues or issues with operators controlling a large amount of validators~\cite{grandjean2023ethereum}. It finds that network participation is usually healthy, with approximately $99\%$ of blocks being proposed successfully and $99.53\%$ of attestations received.
+It finds that the Lido staking service is close to having one third of all validators on the network. A distinction mentioned here is that while Lido can be considered one entity, it also separates its staked Ether between many different operators, resulting in two different ways of viewing the decentralization of the beacon chain. The paper looks into metrics such as the Nakamoto Coefficient, Gini coefficient and the Herfindahl-Hirschman Index (HHI) to measure decentralization. From these metrics, it finds that staking centralization is increasingly a concern and highlights that staking power must be decentralized to prevent a few large entities dominating the validator set. The Gini coefficient is especially relevant, as it highlights that the number of validators is not enough, the distribution of these validators among entities matter. 
+
+In the research by Dominic Grandjean et al.~(2024) a methodology for collecting and clustering validator data is presented. In addition to collecting attestation data and proposals, the researchers collect validator labels, address labels (Ethereum Name Service), deposit addresses, fee recipient addresses and reuse of exchange deposit addresses. These data points are used in a clustering process to group validators into entities. This allows for the identification of entities controlling multiple validators, providing insights into the decentralization of the network. Exceptions are also made in the clustering process to avoid over-clustering, such as excluding certain fee recipient addresses associated with fee reward pools like Rocket Pool's smoothing pool.
+
+Simon Brown et al.~(2024) investigates correlation patterns in the beacon chain. The researchers aim to correlate entities across multiple dimensions such as client usage, relayers, node operators, and geographical distribution ~\cite{brown2024exploring}. Key findings indicate that larger node operators often use the same public infrastructure like AWS or Azure. Larger and smaller operators tend to prefer different clients. Lastly, there is a geographical concentration of staking operators, especially among smaller operators. 
+
+% ===========================================================
+\section{Theory}
+
+In 2022, Ethereum switched from proof of work (PoW) to proof of stake (PoS).
+Simply explained, PoW works by computers solving computationally intensive challenges, and the first computer to solve the challenge mines the block. PoS on Ethereum works by users putting Ether at risk to verify the chain, which is known as staking.
+A validator is created by staking a minimum of $32$~Ether, and a single Ethereum node can operate multiple validators. When 32 Ether is deposited to a validator, the validator can begin to participate in the consensus mechanism of the Ethereum protocol. By participating in the consensus mechanism, a validator is continuously rewarded with more Ether.
+However, if a validator is caught being dishonest, they get slashed which means they lose a portion of the Ether that they have staked. If a validator is offline, the validator would lose the same amount of Ether as would have been given as a reward if they were online. The security of PoS relies on a distributed validator set, which means that no single actor has a large percentage of the validators and are able to affect the consensus of the network.
+
+Users who have less than $32$~Ether can pool their Ether together to stake collectively. This is quite common as $32$ Ether, depending on the Ether price, can be expensive to acquire. The solutions range from custodial staking services to decentralized staking protocols. These solutions make up a significant percentage of the staked Ether on the network. The image on the next page displays the staking distribution on the Ethereum network. As can be seen from the image Lido, a staking protocol, is the largest staking operator on the network.
+
+Currently, there are over a million active validators on Ethereum, making it simple for users to verify that there is a lot of economic security~\cite{beaconchain2025}.
+Ethereum's Gasper mechanism means that an attack can happen at two different points: if an actor has more than 1/3rd stake they are able to stop finality of the chain but the chain keeps producing blocks. 
+If an actor has more than 2/3rd stake, they are able to halt the chain entirely or finalize conflicting forked chains~\cite{gasper2025}.
+In addition, other attacks, such as censoring or delaying transactions, are possible. Due to economies of scale, large stake operations pose a centralization risk~\cite{eip7716_2024_ethresear}.
+As a result, users may wish to verify the decentralization of Ethereum's validator set to ensure that control is not concentrated in the hands of a few entities.
+However, it is difficult to determine whether active validators are independent or controlled by centralized entities, especially without relying on third-party data.
+As a result, there is a need for mechanisms that allow users to independently assess Ethereum's decentralization and the influence of large staking operators.
+
+A systemic risk is if a client has a bug and a large share of the network runs that client, as demonstrated by the Prysm client in the May 2023 bug that caused many validators to go offline simultaneously~\cite{2023offchainlabs}.
+Our clustering approach measures operational independence by detecting when validators fail at the same time, which reflects decentralization more accurately than validator count alone.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image.png}
+    \caption{Hildobby staking dashboard~\cite{hildobby2025}}
+    \label{fig:stakingDashboard}
+\end{figure}
+
+An epoch on Ethereum lasts $6.4$~minutes and is used to group blocks and coordinate the duties of the validator, and every validator on the network must attest once per epoch~\cite{beaconchain_epochs2025}.
+If a validator successfully attests, it indicates that they are online and the node behind the validator is working as expected. If a validator misses the attestation, it indicates that the node is not working as expected, and the validator is considered offline. Each validator on the network has a unique validator index number that can be used to identify it.
+
+For each block that is made, a random validator is selected to propose the block. An epoch includes 32 slots, which equals $32$ blocks. Transactions are considered finalized after two epochs. A committee index is a number that identifies a subset of validators. Each slot consists of multiple committees, and the committees assign the validators various duties, including attestations. 
+
+% ============================================
+\section{Methodology}
+
+To collect data, we use an Ethereum node. The node runs {\tt Besu~v24.8.0} as the execution client and {\tt Nimbus~v25.5.0} as the consensus client. 
+The Nimbus node is in archive mode, which means that the node keeps all the historical data (normal mode keeps data only for the latest 5 months).
+
+For this project, we are interested in the consensus client data which stores data about when validators are supposed to attest to the network and which validators actually attested. By making calls to the Beacon API of the Ethereum node consensus client, we can gather these data.
+
+The following two API calls are made:
+\begin{verbatim}/eth/v1/beacon/states/{slot}/committees?slot={slot}\end{verbatim}
+This returns the committees, which includes all the validators that were supposed to attest for a slot. It can also be used with different parameters to return the committee data for all slots in an epoch in a single call. The data that we store from these API calls are slot number, committee index, and validator indices for each committee. 
+
+\begin{verbatim}/eth/v2/beacon/blocks/{slot}\end{verbatim}
+This returns the block data for a given slot, which includes the data of which the validators successfully attested.
+Validators who missed their attestation will not be included here. As a result, we can compare the data from the two API calls and find out which validators missed their attestations. The data stored from these API calls are the slot number, committee index, and validators for each committee. 
+
+We create a script in Python to collect these data, where the data that the script should collect can be customized. Data collection can be time-consuming due to the volume of data.
+Therefore, collecting data over years would be a time-consuming process. 
+
+From the script above, we obtain time-series data over a defined range of epochs on the network that indicates whether a validator is working as normal or not. As a validator loses a small amount of Ether for the duration that they are offline, this behaviour would be something that validator operators want to minimize. As a result, most of the validators on the network are online under normal conditions. In some instances, a larger number of validators might go offline at the same time due to a client bug, power outages, or other downtimes.
+As a result of this, the threshold that correlates missed attestations should not be too low. 
+
+A Python script is created which looks at which epochs validators miss attestations and counts the number of times that validators miss attestations at the same time.
+A higher number indicates that the validators may be correlated. Furthermore, the distance between the epochs is considered, if validators go offline at the same time, over a longer period of time, that would further indicate that they are likely correlated. 
+
+The Beacon API returns data in JSON format. The script allows setting the number of slots to iterate over, as well as specifying the first and last slot. For the script to work, the node must have the relevant data stored for all slots in the specified range. Collecting committee data for validators assigned to attest is straightforward, as each slot returns all validators scheduled to attest, grouped by committee index. Determining whether an attestation was successful requires checking multiple subsequent slots, since attestations for a given slot are included in later slots. This depends on the inclusion distance, in this project, an attestation is considered valid if it is included within the accepted inclusion distance of 32 slots. The API response for submitted attestations includes aggregation bits, which are decoded to identify which validators in the committee submitted attestations. 
+
+% ========================================
+\section{Results}
+If a node goes offline, all the validators belonging to that same node would go offline. As a result of this, the initial results demonstrate that this is an effective method for determining which validators belong to which machine. If multiple validators go offline multiple times, it is likely that they belong to the same machine. 
+
+Due to the financial incentives for nodes to be online as much as possible, it means that some nodes almost never go offline, which means that to get enough data to map out a large part of the network as accurately as possible one would need to have data over a long period of time. Ideally, the data should be over many months or years. 
+
+As a result of the need to have data over a long period of time, there is a significant amount of data that must be processed. Obtaining the data through a node, collecting the data from a node, and processing the data requires computational resources and can take a long time. If a user wants to verify how decentralized the network is without having a lot of resources, they would likely need to limit themselves to some months worth of data. 
+
+A limitation of the results is that correlated downtime can be caused by factors beyond sharing the same machine. Validators operated by different entities might experience simultaneous downtime due to scheduled maintenance or random coincidence. Additionally, power outages can affect multiple operators, centralized infrastructure such as cloud providers might go down, client bugs may occur, or protocol upgrades could introduce instability. Furthermore, operators distributing their validators across different locations could avoid correlated downtime patterns, making them appear as independent entities even when centrally controlled. The method cannot differentiate between validators on the same server and those on separate machines within a shared infrastructure. 
+
+The results are compared with a dataset ~\cite{eip7716_2024_vitalikethresear} that has labeled a large amount of the validators on the network. This serves as a way to test the accuracy of the results. 
+
+% =========================================================
+\section{Discussion}
+
+A limitation of validator clustering is that entities can and often do separate their validators between different machines.
+An example is Lido, which is the biggest liquid staking pool in Ethereum~\cite{rated2025}.
+Lido separates their staked Ether between many different organizations~\cite{vanom_lido2025}.
+This limitation can be mitigated by combining validator clustering with additional onchain or off chain data sources, to uncover relationships that clustering alone is not able to. 
+Due to economies of scale, there is little incentive to significantly separate the stake between many machines due to cost~\cite{eip7716_2024_ethresear}, which means that our proposed clustering method is likely to be effective in the foreseeable future.
+
+% =========================================================
+\section{Conclusion}
+
+This paper presents a novel way to measure Ethereum’s decentralization by correlating validators based on their downtime patterns. By using data available from the Beacon API and building an open source toolkit, we show how anyone running their own Ethereum node can analyze validator behavior and identify potential clusters, without relying on third-party data.
+
+Our research shows that validators that often go offline together are likely run on the same machine or by the same operator. This gives us a useful way to estimate how many independent entities are actually securing the network. While Ethereum’s recent Pectra upgrade allows for more Ether to be staked per validator, many operators will still need to run multiple validators, so our method remains relevant.
+
+Limitations exist such as downtime can happen by coincidence, for instance during regional outages or client bugs, and operators can spread their infrastructure to avoid detection and larger operators often do so anyways. Future work should address this by combining our approach with other data, like onchain fee recipients or deposit addresses.
+
+The toolkit is already implemented and specified. Final data collection and a full-scale analysis of validator clusters across historical epochs will be finished by July 2025 as part of the Master’s thesis conclusion. The subsequent publication will present quantitative results on Ethereum’s decentralization, including cluster size distributions, Nakamoto coefficients, and centralization risk assessments based on the complete dataset.
+
+\printbibliography
+\end{document}

@@ -1,0 +1,6 @@
+\contentsline {part}{Day 1}{1}{section*.3}%
+\contentsline {chapter}{Oral Session 1}{1}{section*.4}%
+\contentsline {section}{\numberline {0.1}\ignorespaces {Multi-label music genre recognition based on spectrograms}{\newline \itshape Bartosz Karpiński}}{1}{section.0.1}%
+\contentsline {section}{\numberline {0.2}\ignorespaces {Multi-label music genre recognition based on spectrograms}{\newline \itshape Bartosz Karpiński}}{10}{section.0.2}%
+\contentsline {part}{Index of Authors}{19}{section*.5}%
+\contentsfinish 

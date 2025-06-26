@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{daily_and_sports_activities_256}
+Barshan, B., Altun, K.: {Daily and Sports Activities}. UCI Machine Learning
+  Repository (2010), {DOI}: https://doi.org/10.24432/C5C59F
+
+\bibitem{firstzksnark}
+Bitansky, N., Canetti, R., Chiesa, A., Tromer, E.: From extractable collision
+  resistance to succinct non-interactive arguments of knowledge, and back
+  again. In: Proceedings of the 3rd Innovations in Theoretical Computer Science
+  Conference. p. 326–349. ITCS '12, Association for Computing Machinery, New
+  York, NY, USA (2012). \doi{10.1145/2090236.2090263},
+  \url{https://doi.org/10.1145/2090236.2090263}
+
+\bibitem{mainflzkp}
+Ebrahimi, E., Sober, M., Hoang, A.T., Ileri, C.U., Sanders, W., Schulte, S.:
+  Blockchain-based federated learning utilizing zero-knowledge proofs for
+  verifiable training and aggregation. In: 2024 IEEE International Conference
+  on Blockchain (Blockchain). pp. 54--63 (2024).
+  \doi{10.1109/Blockchain62396.2024.00017}
+
+\bibitem{evaluatingzkp}
+El-Hajj, M., {Oude Roelink}, B.: Evaluating the efficiency of zk-snark,
+  zk-stark, and bulletproof in real-world scenarios: A benchmark study.
+  Information (Switzerland)  \textbf{15}(8) (2024). \doi{10.3390/info15080463},
+  publisher Copyright: {\textcopyright} 2024 by the authors.
+
+\bibitem{groth16}
+Groth, J.: On the size of pairing-based non-interactive arguments. In:
+  Fischlin, M., Coron, J.S. (eds.) Advances in Cryptology -- EUROCRYPT 2016.
+  pp. 305--326. Springer Berlin Heidelberg, Berlin, Heidelberg (2016)
+
+\bibitem{msthesis}
+Haimerl, N.: Blockchain-based federated learning with data verification through
+  zero-knowledge proofs  (2022). \doi{10.34726/HSS.2022.90711},
+  \url{https://repositum.tuwien.at/handle/20.500.12708/19921}
+
+\bibitem{googlefederated2016}
+McMahan, H.B., Moore, E., Ramage, D., Hampson, S., y~Arcas, B.A.:
+  Communication-efficient learning of deep networks from decentralized data
+  (2023), \url{https://arxiv.org/abs/1602.05629}
+
+\bibitem{oude2024systematic}
+Oude~Roelink, B., El-Hajj, M., Sarmah, D.: Systematic review: Comparing
+  zk-snark, zk-stark, and bulletproof protocols for privacy-preserving
+  authentication. Security and Privacy  \textbf{7}(5), ~e401 (2024)
+
+\end{thebibliography}

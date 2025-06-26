@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 0001.aux
+The style file: splncs04.bst
+I found no \bibdata command---while reading file 0001.aux
+Warning--I didn't find a database entry for "gtzan_analysis"
+Warning--I didn't find a database entry for "gtzan"
+Warning--I didn't find a database entry for "million"
+Warning--I didn't find a database entry for "genre_classification_review"
+Warning--I didn't find a database entry for "genre_classification_content"
+Warning--I didn't find a database entry for "genre_classification_spectrograms"
+Warning--I didn't find a database entry for "genre_classification_ml"
+Warning--I didn't find a database entry for "cnn_spectrogram"
+Warning--I didn't find a database entry for "cnn_recurrent"
+Warning--I didn't find a database entry for "genre_classification_ml_2"
+Warning--I didn't find a database entry for "schindler2019multi"
+Warning--I didn't find a database entry for "genre_multi_domain"
+Warning--I didn't find a database entry for "genre_multi_border"
+Warning--I didn't find a database entry for "genre_multi_source"
+Warning--I didn't find a database entry for "sanden2011enhancing"
+Warning--I didn't find a database entry for "mel_spectrogram"
+Warning--I didn't find a database entry for "gong2021ast"
+Warning--I didn't find a database entry for "lin2024audio"
+You've used 0 entries,
+            2850 wiz_defined-function locations,
+            611 strings with 4789 characters,
+and the built_in function-call counts, 24 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 6
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 5
+(There was 1 error message)

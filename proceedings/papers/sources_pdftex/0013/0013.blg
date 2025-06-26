@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 0013.aux
+The style file: splncs04.bst
+Database file #1: references.bib
+Warning--empty journal in msthesis
+You've used 8 entries,
+            2850 wiz_defined-function locations,
+            655 strings with 6518 characters,
+and the built_in function-call counts, 4475 in all, are:
+= -- 364
+> -- 143
+< -- 6
++ -- 58
+- -- 50
+* -- 282
+:= -- 574
+add.period$ -- 15
+call.type$ -- 8
+change.case$ -- 55
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 406
+empty$ -- 401
+format.name$ -- 57
+if$ -- 982
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 82
+newline$ -- 30
+num.names$ -- 18
+pop$ -- 164
+preamble$ -- 1
+purify$ -- 40
+quote$ -- 0
+skip$ -- 126
+stack$ -- 0
+substring$ -- 198
+swap$ -- 223
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 1
+while$ -- 33
+width$ -- 9
+write$ -- 94
+(There was 1 warning)

@@ -1,0 +1,457 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.9)  26 JUN 2025 16:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**0013
+(./0013.tex
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/llncs/llncs.cls
+Document Class: llncs 2025/02/25 v2.26 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count283
+\mult@box=\box53
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count284
+\c@collectmore=\count285
+\doublecol@number=\count286
+\multicoltolerance=\count287
+\multicolpretolerance=\count288
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count289
+\c@columnbadness=\count290
+\c@finalcolumnbadness=\count291
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count292
+\g__mc_curr_col_int=\count293
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count294
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 379.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 382.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 383.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 384.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 385.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 386.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 387.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 388.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 389.
+LaTeX Info: Redefining \vec on input line 394.
+\tocchpnum=\dimen158
+\tocsecnum=\dimen159
+\tocsectotal=\dimen160
+\tocsubsecnum=\dimen161
+\tocsubsectotal=\dimen162
+\tocsubsubsecnum=\dimen163
+\tocsubsubsectotal=\dimen164
+\tocparanum=\dimen165
+\tocparatotal=\dimen166
+\tocsubparanum=\dimen167
+\@tempcntc=\count295
+\fnindent=\dimen168
+\c@@inst=\count296
+\c@@auth=\count297
+\c@auco=\count298
+\instindent=\dimen169
+\authrun=\box99
+\authorrunning=\toks17
+\tocauthor=\toks18
+\titrun=\box100
+\titlerunning=\toks19
+\toctitle=\toks20
+\c@theorem=\count299
+\c@case=\count300
+\c@conjecture=\count301
+\c@corollary=\count302
+\c@definition=\count303
+\c@example=\count304
+\c@exercise=\count305
+\c@lemma=\count306
+\c@note=\count307
+\c@problem=\count308
+\c@property=\count309
+\c@proposition=\count310
+\c@question=\count311
+\c@solution=\count312
+\c@remark=\count313
+\headlineindent=\dimen170
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/05/18 v2.17x AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen171
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen172
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count314
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count315
+\leftroot@=\count316
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count317
+\DOTSCASE@=\count318
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box101
+\strutbox@=\box102
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen173
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count319
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count320
+\dotsspace@=\muskip17
+\c@parentequation=\count321
+\dspbrk@lvl=\count322
+\tag@help=\toks22
+\row@=\count323
+\column@=\count324
+\maxfields@=\count325
+\andhelp@=\toks23
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
+\@envbody=\toks24
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count326
+)
+(./0013.aux)
+\openout1 = `0013.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count327
+\scratchdimen=\dimen182
+\scratchbox=\box103
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen183
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Title too long for running head. Please supply
+a shorter form with \titlerunning prior to \maketitle
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
+/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (12.04132pt too wide) in paragraph at lines 83--85
+[]\T1/cmr/m/n/10 Haimerl's the-sis pre-sented a blockchain-based FL ar-chi-tec-
+ture us-ing zk-SNARKs
+ []
+
+
+
+[2]
+<offchain_fl_system.pdf, id=24, 752.8125pt x 451.6875pt>
+File: offchain_fl_system.pdf Graphic file (type pdf)
+<use offchain_fl_system.pdf>
+Package pdftex.def Info: offchain_fl_system.pdf  used on input line 113.
+(pdftex.def)             Requested size: 347.12354pt x 208.28189pt.
+
+
+[3]
+
+[4 <./offchain_fl_system.pdf>]
+<time_comparison.pdf, id=63, 1149.071pt x 853.25336pt>
+File: time_comparison.pdf Graphic file (type pdf)
+<use time_comparison.pdf>
+Package pdftex.def Info: time_comparison.pdf  used on input line 185.
+(pdftex.def)             Requested size: 312.40906pt x 231.9829pt.
+<snark_detailed.pdf, id=64, 1149.02591pt x 853.25336pt>
+File: snark_detailed.pdf Graphic file (type pdf)
+<use snark_detailed.pdf>
+Package pdftex.def Info: snark_detailed.pdf  used on input line 196.
+(pdftex.def)             Requested size: 312.40906pt x 231.99591pt.
+
+
+[5]
+
+[6 <./time_comparison.pdf> <./snark_detailed.pdf>]
+<stark_detailed.pdf, id=227, 1149.04343pt x 853.25336pt>
+File: stark_detailed.pdf Graphic file (type pdf)
+<use stark_detailed.pdf>
+Package pdftex.def Info: stark_detailed.pdf  used on input line 215.
+(pdftex.def)             Requested size: 277.69987pt x 206.20412pt.
+
+
+[7 <./stark_detailed.pdf>]
+Overfull \hbox (4.56836pt too wide) in paragraph at lines 241--243
+\T1/cmr/m/n/10 van-tages demon-strate trans-for-ma-tive dif-fer-ences that fun-
+da-men-tally al-ter privacy-
+ []
+
+
+Overfull \hbox (1.04144pt too wide) in paragraph at lines 250--251
+\T1/cmr/m/n/10 sav-ings sup-port-ing en-vi-ron-men-tally sus-tain-able de-ploy-
+ment of privacy-preserving
+ []
+
+
+
+[8]
+Overfull \hbox (0.68835pt too wide) in paragraph at lines 289--290
+[]\T1/cmr/m/it/10 Environmental con-sis-tency: \T1/cmr/m/n/10 Mem-ory mon-i-tor
+-ing re-lied on ma-cOS APIs; cross-
+ []
+
+
+
+[9] (./0013.bbl
+Underfull \hbox (badness 1590) in paragraph at lines 11--17
+[]\T1/cmr/m/n/9 Bitansky, N., Canetti, R., Chiesa, A., Tromer, E.: From ex-trac
+table col-li-
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 11--17
+\T1/cmr/m/n/9 ery, New York, NY, USA (2012). https://doi.org/10.1145/2090236.20
+90263,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+[]\T1/cmr/m/n/9 Ebrahimi, E., Sober, M., Hoang, A.T., Ileri, C.U., Sanders, W.,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+\T1/cmr/m/n/9 Schulte, S.: Blockchain-based fed-er-ated learn-ing uti-liz-ing z
+ero-knowledge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+\T1/cmr/m/n/9 proofs for ver-i-fi-able train-ing and ag-gre-ga-tion. In: 2024 I
+EEE In-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+\T1/cmr/m/n/9 na-tional Con-fer-ence on Blockchain (Blockchain). pp. 54--63 (20
+24).
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 37--40
+[]\T1/cmr/m/n/9 Haimerl, N.: Blockchain-based fed-er-ated learn-ing with data v
+er-i-fi-ca-tion
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 42--45
+[]\T1/cmr/m/n/9 McMahan, H.B., Moore, E., Ra-m-age, D., Hamp-son, S., y Ar-cas,
+ B.A.:
+ []
+
+)
+
+[10] (./0013.aux)
+ ***********
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 2800 strings out of 467892
+ 40346 string characters out of 5434150
+ 449971 words of memory out of 5000000
+ 31339 multiletter control sequences out of 15000+600000
+ 639235 words of font info for 65 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,9n,65p,551b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texliv
+e/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/
+2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/20
+25/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/t
+exmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on 0013.pdf (10 pages, 424500 bytes).
+PDF statistics:
+ 398 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

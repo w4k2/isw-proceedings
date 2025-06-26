@@ -1,0 +1,84 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{metrics_for_evaluating}
+Metrics for evaluating 3d medical image segmentation: analysis, selection, and
+  tool. BMC Med Imaging  \textbf{2015}(15) (2015).
+  \doi{https://doi.org/10.1186/s12880-015-0068-x},
+  \url{https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-015-0068-x}
+
+\bibitem{csnn}
+Bakaj~Zbrožková, L., Hálek, J., Michálková, K., Heřman, M.: Radiologické
+  nálezy u donošených novorozenců s hypoxicko-ischemickou encefalopatií.
+  Česká a slovenská neurologie a neurochirurgie  \textbf{80/113}(3),
+  291--299 (2017)
+
+\bibitem{bonbid}
+Bao, R., Song, Y., Bates, S.V., Weiss, R.J., Foster, A.N., Cobos, C.J.,
+  Sotardi, S., Zhang, Y., Gollub, R.L., Grant, P.E., Ou, Y.: Boston neonatal
+  brain injury dataset for hypoxic ischemic encephalopathy (bonbid-hie): Part
+  i. mri and manual lesion annotation. bioRxiv  (2023).
+  \doi{10.1101/2023.06.30.546841},
+  \url{https://www.biorxiv.org/content/early/2023/07/03/2023.06.30.546841}
+
+\bibitem{deeplab}
+Chen, L.C., Papandreou, G., Schroff, F., Adam, H.: Rethinking atrous
+  convolution for semantic image segmentation (2017),
+  \url{https://arxiv.org/abs/1706.05587}
+
+\bibitem{mamba}
+Gu, A., Dao, T.: Mamba: Linear-time sequence modeling with selective state
+  spaces (2024), \url{https://arxiv.org/abs/2312.00752}
+
+\bibitem{neonatal_technical}
+Hillenbrand, C.M., Reykowski, A.: Mr imaging of the newborn: A technical
+  perspective. Magnetic Resonance Imaging Clinics of North America
+  \textbf{20}(1),  63--79 (2012).
+  \doi{https://doi.org/10.1016/j.mric.2011.10.002},
+  \url{https://www.sciencedirect.com/science/article/pii/S1064968911001012},
+  mRI of the Newborn, Part 2
+
+\bibitem{repository}
+Ľubomír Hlavko: {ISW 2025 - Neonatal segmentation }.
+  \url{https://github.com/lubsar/ISW-2025-Neonatal-Brain-MRI-Segmentation}
+  (2025)
+
+\bibitem{nnunet}
+Isensee, F., Jaeger, P.F., Kohl, S.A.A., Petersen, J., Maier-Hein, K.H.:
+  nnu-net: a self-configuring method for deep learning-based biomedical image
+  segmentation. Nature Methods  \textbf{18}(2),  203--211 (Feb 2021).
+  \doi{10.1038/s41592-020-01008-z},
+  \url{https://doi.org/10.1038/s41592-020-01008-z}
+
+\bibitem{loss_odyssey}
+Ma, J., Chen, J., Ng, M., Huang, R., Li, Y., Li, C., Yang, X., Martel, A.L.:
+  Loss odyssey in medical image segmentation. Medical Image Analysis
+  \textbf{71},  102035 (2021).
+  \doi{https://doi.org/10.1016/j.media.2021.102035},
+  \url{https://www.sciencedirect.com/science/article/pii/S1361841521000815}
+
+\bibitem{unet}
+Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolutional networks for
+  biomedical image segmentation (2015)
+
+\bibitem{iseg2019}
+Sun, Y., Gao, K., Wu, Z., Li, G., Zong, X., Lei, Z., Wei, Y., Ma, J., Yang, X.,
+  Feng, X., Zhao, L., Le~Phan, T., Shin, J., Zhong, T., Zhang, Y., Yu, L., Li,
+  C., Basnet, R., Ahmad, M.O., Swamy, M.N.S., Ma, W., Dou, Q., Bui, T.D.,
+  Noguera, C.B., Landman, B., Gotlib, I.H., Humphreys, K.L., Shultz, S., Li,
+  L., Niu, S., Lin, W., Jewells, V., Shen, D., Li, G., Wang, L.: Multi-site
+  infant brain segmentation algorithms: The iseg-2019 challenge. IEEE
+  Transactions on Medical Imaging  \textbf{40}(5),  1363--1376 (2021).
+  \doi{10.1109/TMI.2021.3055428}
+
+\bibitem{freesurfer_infant}
+Zöllei, L., Iglesias, J.E., Ou, Y., Grant, P.E., Fischl, B.: Infant
+  freesurfer: An automated segmentation and surface extraction pipeline for
+  t1-weighted neuroimaging data of infants 0–2 years. NeuroImage
+  \textbf{218},  116946 (2020).
+  \doi{https://doi.org/10.1016/j.neuroimage.2020.116946},
+  \url{https://www.sciencedirect.com/science/article/pii/S1053811920304328}
+
+\end{thebibliography}
