@@ -24,16 +24,17 @@
     %     voffset=-5mm
     },%letter
 ]{confproc}
-
+\usepackage{afterpage}
 \usepackage{setspace}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{mathptmx}
 \usepackage[super]{nth}
+\usepackage{xcolor}
 
-\renewcommand{\procpdfauthor }{{[Proceedings editor], Wroclaw University of Science and Technology}}
-\renewcommand{\procpdftitle }{{ISW Proceedings}}
-\renewcommand{\procpdfsubject }{{Proc. of the Xth International Students Workshop (ISW), Kamienna Góra, Poland, [Dates]}}
+\renewcommand{\procpdfauthor }{{Editor: Wojciech Kmiecik, Wroclaw University of Science and Technology}}
+\renewcommand{\procpdftitle }{{International Students Workshop Proceedings}}
+\renewcommand{\procpdfsubject }{{Proc. of the 8th ISW, Kamienna Góra, Poland, 25-27 April 2025}}
 
 \renewcommand{\procchead }{} %
 \renewcommand{\proclhead }{{\em \small \procpdfsubject}}
@@ -48,12 +49,19 @@
 
 %%%=========== PROCEEDINGS ===========
 \begin{document}
+\pagecolor{black}
+\includepdf[scale=1.,pages=1,link]{cover-front.pdf}
+
+\pagecolor{white}
+
+
 \frontmatter
 %\includepdf[noautoscale,pages=1,link]{pictures/ex_1stpage.pdf}
 \setcounter{page}{1}
 \pdfbookmark[0]{Preamble}{preamble}
 \pdfbookmark[1]{Cover}{cover}
 \maketitle
+
 \newpage
 
 \otherpagestyle
@@ -62,26 +70,48 @@
 \clearsingleordoublepage
 \vspace*{0.6cm}
 \thisotherpagestyle
-\pdfbookmark[1]{Welcome from Firstname Lastname}{welcome}
-\section*{Welcome from Firstname Lastname, Conference Chair}
+\pdfbookmark[1]{Welcome from Wojciech Kmiecik}{welcome}
+\section*{Welcome from Wojciech Kmiecik, Conference Chair}
 \vspace*{1.1cm}
-\onehalfspace
-\begin{center}
-  \begin{minipage}[h]{14cm}
-    Text of the welcome letter, with 1.5 lines spacing, blah blah...
-    Text of the welcome letter, with 1.5 lines spacing, blah blah...
-    Text of the welcome letter, with 1.5 lines spacing, blah blah...
-    Text of the welcome letter, with 1.5 lines spacing, blah blah...
-  \end{minipage}
-\end{center}
+% \onehalfspace
 \doublespace
 \begin{center}
   \begin{minipage}[h]{14cm}
-    Text of the welcome letter, with 2 lines spacing, blah blah...
-    Text of the welcome letter, with 2 lines spacing, blah blah...
-    Text of the welcome letter, with 2 lines spacing, blah blah...
-    Text of the welcome letter, with 2 lines spacing, blah blah...
+    International Student's Workshop'25 (ISW'25) was the eighth edition of the event previously known as the Polish-British Workshop (PBW). Its first edition took place at the turn of the century (2001), when Polish scientists were still timidly entering the new scientific salons of Western Europe. The forerunners of constructing bridges between Polish and Western centers - in our local, and therefore closest to our hearts world - were Leszek Koszałka and Iwona Poźniak-Koszałka, PhDs at the Department of Computer Systems and Networks (KSSK) joining their academical forces with cordial friend Keith Burnham - professor of Coventry University.
   \end{minipage}
+\end{center}
+\begin{center}
+  \begin{minipage}[h]{14cm}
+    The first editions of PBW were an opportunity to re-establish contact with the most talented graduates of KSSK, who linked their future scientific fates with universities in Great Britain. They came to one of the Lower Silesian towns with their students, so that they could exchange experiences with their peers from the Wrocław University of Technology (PWr), tell them about their achievements and scientific ideas and - most importantly - see each other's perspectives, built in still very different worlds. To become familiar with the new and inevitable. Over time, these worlds grew together -- Poland joined the European Union, trips abroad were no longer associated with fear of the unknown, because we were already familiar with performing in front of an English-speaking audience, and PBW began to undergo its own slow changes.
+  \end{minipage}
+\end{center}
+\begin{center}
+  \begin{minipage}[h]{14cm}  
+      Over time, it grew into the International Student's Workshop -- not by exaggeration, but by joyfully accepting the fact that the paths of our academic emigration had diversified, whether to Norway, Austria or Australia, and the friendships acquired over the years also reached the other lung of Europe represented by Bulgaria or the Russian Federation.
+  \end{minipage}
+\end{center}
+\begin{center}
+  \begin{minipage}[h]{14cm}
+      Changing in parallel with the times, maturing together with us, this conference became a mandatory first brush with our later doctoral students, doctors and finally professors. Always welcoming new perspectives with kindness, always looking at the participants with cordiality so as not to leave anyone out unnoticed.
+\end{minipage}
+\end{center}
+\begin{center}
+  \begin{minipage}[h]{14cm}
+      The history of PBW/ISW came to an abrupt break in 2020, when the entire world came to a standstill after the outbreak of the COVID-19 pandemic. A moment later, our hearts stopped too, upon hearing the news of the death of Dr. Leszek Koszałka, who, together with his wife Iwona, had always been the burning heart of our annual meetings.
+  \end{minipage}
+\end{center}
+\begin{center}
+  \begin{minipage}[h]{14cm}
+    After five years of difficult struggles, we have managed to get back on our feet and can now present you with the ISW'25 conference proceedings. As we write this introductory letter, we would like to address two dedicatory sentences to Dr. Koszałka. *Thank you for showing us how to get along despite our differences -- look how well we are doing. Please know that it is thanks to you*.
+  \end{minipage}
+\end{center}
+\vspace{2em}
+\begin{center}
+  \begin{minipage}[h]{14cm}
+    \flushright
+    Your Editor\hspace{11.8em}\\
+    Wojciech Kmiecik
+\end{minipage}
 \end{center}
 \singlespace
 \tableofcontents
@@ -90,7 +120,7 @@
 \mainmatter
 
 \procday{Day 1}
-  \session{Oral Session 1}
+%   \session{Oral Session 1}
     \procpaper[
       title={Multi-label music genre recognition based on spectrograms},%
       author={Bartosz Karpiński},%
@@ -194,4 +224,8 @@
 \backmatter
 
 \insertindex
+
+\pagecolor{black}
+\includepdf[scale=1.,pages=1,link]{cover-back.pdf}
+
 \end{document}

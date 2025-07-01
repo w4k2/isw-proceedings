@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.9)  26 JUN 2025 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.9)  1 JUL 2025 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,25 +318,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<Capped_class_distribution.png, id=11, 433.62pt x 289.08pt>
+<Capped_class_distribution.png, id=12, 433.62pt x 289.08pt>
 File: Capped_class_distribution.png Graphic file (type png)
 <use Capped_class_distribution.png>
-Package pdftex.def Info: Capped_class_distribution.png  used on input line 51.
+Package pdftex.def Info: Capped_class_distribution.png  used on input line 55.
 (pdftex.def)             Requested size: 260.34265pt x 173.56842pt.
-<dist_honey.png, id=13, 708.39656pt x 470.50781pt>
+<dist_honey.png, id=14, 708.39656pt x 470.50781pt>
 File: dist_honey.png Graphic file (type png)
 <use dist_honey.png>
-Package pdftex.def Info: dist_honey.png  used on input line 60.
+Package pdftex.def Info: dist_honey.png  used on input line 64.
 (pdftex.def)             Requested size: 260.34265pt x 172.91492pt.
-<dist_hardness.png, id=14, 712.16063pt x 469.755pt>
+<dist_hardness.png, id=15, 712.16063pt x 469.755pt>
 File: dist_hardness.png Graphic file (type png)
 <use dist_hardness.png>
-Package pdftex.def Info: dist_hardness.png  used on input line 69.
+Package pdftex.def Info: dist_hardness.png  used on input line 73.
 (pdftex.def)             Requested size: 260.34265pt x 171.72078pt.
-<example-bee-frame.png, id=15, 567.62062pt x 423.08063pt>
+<example-bee-frame.png, id=16, 567.62062pt x 423.08063pt>
 File: example-bee-frame.png Graphic file (type png)
 <use example-bee-frame.png>
-Package pdftex.def Info: example-bee-frame.png  used on input line 79.
+Package pdftex.def Info: example-bee-frame.png  used on input line 83.
 (pdftex.def)             Requested size: 260.34265pt x 194.05135pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -346,11 +346,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [2 <./Capped_class_distribution.png>]
 
 [3 <./dist_honey.png> <./dist_hardness.png>]
-<example-of-cropped-bee-frame.png, id=26, 304.13625pt x 300.3722pt>
+<example-of-cropped-bee-frame.png, id=27, 304.13625pt x 300.3722pt>
 File: example-of-cropped-bee-frame.png Graphic file (type png)
 <use example-of-cropped-bee-frame.png>
 Package pdftex.def Info: example-of-cropped-bee-frame.png  used on input line 1
-07.
+11.
 (pdftex.def)             Requested size: 242.98541pt x 239.9864pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -358,19 +358,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [4 <./example-bee-frame.png>]
-<example_of_augmented_bee_frame.png, id=31, 701.62125pt x 703.12688pt>
+<example_of_augmented_bee_frame.png, id=32, 701.62125pt x 703.12688pt>
 File: example_of_augmented_bee_frame.png Graphic file (type png)
 <use example_of_augmented_bee_frame.png>
 Package pdftex.def Info: example_of_augmented_bee_frame.png  used on input line
- 115.
+ 119.
 (pdftex.def)             Requested size: 242.98541pt x 243.50171pt.
-<visualization_how_photos_looks_after_augmentation.png, id=32, 781.41937pt x 66
+<visualization_how_photos_looks_after_augmentation.png, id=33, 781.41937pt x 66
 0.21657pt>
 File: visualization_how_photos_looks_after_augmentation.png Graphic file (type 
 png)
 <use visualization_how_photos_looks_after_augmentation.png>
 Package pdftex.def Info: visualization_how_photos_looks_after_augmentation.png 
- used on input line 123.
+ used on input line 127.
 (pdftex.def)             Requested size: 242.98541pt x 205.29968pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -381,21 +381,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [6 <./visualization_how_photos_looks_after_augmentation.png>]
-<isw/all-models-balanced-accuracy-of-capped-label-by-fold.png, id=43, 1306.1296
+<isw/all-models-balanced-accuracy-of-capped-label-by-fold.png, id=44, 1306.1296
 8pt x 782.17218pt>
 File: isw/all-models-balanced-accuracy-of-capped-label-by-fold.png Graphic file
  (type png)
 <use isw/all-models-balanced-accuracy-of-capped-label-by-fold.png>
 Package pdftex.def Info: isw/all-models-balanced-accuracy-of-capped-label-by-fo
-ld.png  used on input line 145.
+ld.png  used on input line 149.
 (pdftex.def)             Requested size: 260.34265pt x 155.89459pt.
-<isw/gnb-balanced-accuracy-of-all-labels-by-fold.png, id=44, 1306.12968pt x 782
+<isw/gnb-balanced-accuracy-of-all-labels-by-fold.png, id=45, 1306.12968pt x 782
 .17218pt>
 File: isw/gnb-balanced-accuracy-of-all-labels-by-fold.png Graphic file (type pn
 g)
 <use isw/gnb-balanced-accuracy-of-all-labels-by-fold.png>
 Package pdftex.def Info: isw/gnb-balanced-accuracy-of-all-labels-by-fold.png  u
-sed on input line 153.
+sed on input line 157.
 (pdftex.def)             Requested size: 260.34265pt x 155.89459pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -509,10 +509,10 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4298 strings out of 467892
- 74129 string characters out of 5434150
+ 4300 strings out of 467892
+ 74189 string characters out of 5434150
  466978 words of memory out of 5000000
- 32820 multiletter control sequences out of 15000+600000
+ 32822 multiletter control sequences out of 15000+600000
  633301 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,6n,79p,1200b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -524,7 +524,7 @@ sr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
 ocal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/loc
 al/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on 0003.pdf (9 pages, 3787852 bytes).
+Output written on 0003.pdf (9 pages, 3789736 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

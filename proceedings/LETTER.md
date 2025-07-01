@@ -1,0 +1,14 @@
+International Student's Workshop'25 (ISW'25) was the eighth edition of the event previously known as the Polish-British Workshop (PBW). Its first edition took place at the turn of the century (2001), when Polish scientists were still timidly entering the new scientific salons of Western Europe. The forerunners of constructing bridges between Polish and Western centers - in our local, and therefore closest to our hearts world - were Leszek Koszałka and Iwona Poźniak-Koszałka, PhDs at the Department of Computer Systems and Networks (KSSK) joining their academical forces with cordial friend Keith Burnham - professor of Coventry University.
+
+The first editions of PBW were an opportunity to re-establish contact with the most talented graduates of KSSK, who linked their future scientific fates with universities in Great Britain. They came to one of the Lower Silesian towns with their students, so that they could exchange experiences with their peers from the Wrocław University of Technology (PWr), tell them about their achievements and scientific ideas and - most importantly - see each other's perspectives, built in still very different worlds. To become familiar with the new and inevitable. Over time, these worlds grew together -- Poland joined the European Union, trips abroad were no longer associated with fear of the unknown, because we were already familiar with performing in front of an English-speaking audience, and PBW began to undergo its own slow changes.
+
+Over time, it grew into the International Student's Workshop -- not by exaggeration, but by joyfully accepting the fact that the paths of our academic emigration had diversified, whether to Norway, Austria or Australia, and the friendships acquired over the years also reached the other lung of Europe represented by Bulgaria or the Russian Federation.
+
+Changing in parallel with the times, maturing together with us, this conference became a mandatory first brush with our later doctoral students, doctors and finally professors. Always welcoming new perspectives with kindness, always looking at the participants with cordiality so as not to leave anyone out unnoticed.
+
+The history of PBW/ISW came to an abrupt break in 2020, when the entire world came to a standstill after the outbreak of the COVID-19 pandemic. A moment later, our hearts stopped too, upon hearing the news of the death of Dr. Leszek Koszałka, who, together with his wife Iwona, had always been the burning heart of our annual meetings.
+
+After five years of difficult struggles, we have managed to get back on our feet and can now present you with the ISW'25 conference proceedings. As we write this introductory letter, we would like to address two dedicatory sentences to Dr. Koszałka. *Thank you for showing us how to get along despite our differences -- look how well we are doing. Please know that it is thanks to you*.
+
+Your Editors
+Wojciech Kmiecik and Paweł Ksieniewicz

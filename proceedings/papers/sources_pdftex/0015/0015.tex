@@ -19,7 +19,7 @@
 %
 \begin{document}
 %
-\title{Exploring public space congestion via bluetooth device counting }
+\title{Exploring public space congestion via Bluetooth device counting}
 %
 %\titlerunning{Abbreviated paper title}
 % If the paper title is too long for the running head, you can set
@@ -40,7 +40,7 @@ Wyb. Wyspiańskiego 27, 50-370 Wrocław, Poland
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-This paper describes the development and implementation of a distributed Internet of Things (IoT) network utilizing Bluetooth Low Energy Sensors (BLEs) to visualize and quantify congestion levels in public spaces. The network employs low-cost BLE sensors  that detect passive signals emitted by Bluetooth devices, providing a proxy for human presence. The data collected from the sensor network can be used for statistical analysis. Our findings are based on a limited amount of data from a single sensor location and are intended to provide a preliminary indication of the system's capabilities.
+This paper describes the development and implementation of a distributed Internet of Things~(IoT) network utilizing Bluetooth Low Energy Sensors~(BLEs) to visualize and quantify congestion levels in public spaces. The network employs low-cost BLE sensors that detect passive signals emitted by Bluetooth devices, providing a proxy for human presence. The data collected from the sensor network can be used for statistical analysis. Our findings are based on a limited amount of data from a single sensor location and are intended to provide a preliminary indication of the system's capabilities.
 
 \keywords{Bluetooth Low Energy \and Device Counting \and Congestion Monitoring \and IoT\and Public Spaces \and Real-Time Monitoring}
 \end{abstract}
@@ -51,14 +51,14 @@ This paper describes the development and implementation of a distributed Interne
 In this paper, we will explore the development and implementation of a distributed Internet Of Things(IoT) network utilizing Bluetooth Low Energy(BLE) sensors to visualize and quantify congestion levels in public spaces. Traditional methods of monitoring crowd density often rely on manual observation, which presents two main challenges: its high cost and low real-time responsiveness. We present a theoretically infinitely scalable architecture that employs a network of low-cost BLE sensors that detect passive signals emitted by Bluetooth devices, providing a proxy for human presence. Data collected from the sensor network can be used for statistical analysis as well as generation of real-time congestion maps.
 
 \section{Methodology}
-The primary purpose of this system is to provide a scalable and cost-effective method for quantifying and visualizing congestion levels in public spaces in near real-time. We aim to verify if passively detected BLE device counts can serve as a reliable proxy for crowd density. Key assumptions include that a significant portion of individuals in public spaces carry BLE-enabled devices and that fluctuations in detected devices correlate with actual changes in human presence. Design decisions, such as using readily available Espressif ESP32-C3 boards and open-source software (InfluxDB, Grafana), were made to ensure low cost and ease of deployment.
+The primary purpose of this system is to provide a scalable and cost-effective method for quantifying and visualizing congestion levels in public spaces in near real-time. We aim to verify if passively detected BLE device counts can serve as a reliable proxy for crowd density. Key assumptions include that a significant portion of individuals in public spaces carry BLE-enabled devices and that fluctuations in detected devices correlate with actual changes in human presence. Design decisions, such as using readily available Espressif ESP32-C3 boards~\cite{Espressif} and open-source software (InfluxDB~\cite{InfluxDB}, Grafana~\cite{Grafana}), were made to ensure low cost and ease of deployment.
 \subsection{System Architecture}
 \includesvg[width=0.8\linewidth]{SDiagram.svg}
 \\
 Each sensor node is built on a ESP32-c3 MCU-based SoC solution that supports 2.4 GHz Wi-Fi and Bluetooth Low Energy (Bluetooth LE)\cite{Espressif_Datasheet}. Currently, for initial testing, the sensor layer consists of a single operational node, with plans for a grid-based deployment of multiple nodes to ensure uniform coverage of larger target areas.
 \begin{enumerate}
-\item \emph{Sensor Layer}: The sensor layer comprises a distributed network of BLE sensor nodes. Each node, built around an ESP32 microcontroller, continuously scans for Bluetooth devices and transmits the collected data via MQTT to the subsequent layer.
-\item \emph{Data Aggregation Layer}: The data aggregation layer is hosted on a dedicated server. This server is configured with an InfluxDB database, which functions as a central repository for the data streams originating from the sensor nodes. Data received via MQTT is processed by Telegraf before being stored in InfluxDB.
+\item \emph{Sensor Layer}: The sensor layer comprises a distributed network of BLE sensor nodes. Each node, built around an ESP32 microcontroller, continuously scans for Bluetooth devices and transmits the collected data via MQTT\cite{MQTT} to the subsequent layer.
+\item \emph{Data Aggregation Layer}: The data aggregation layer is hosted on a dedicated server. This server is configured with an InfluxDB~\cite{InfluxDB} database, which functions as a central repository for the data streams originating from the sensor nodes. Data received via MQTT is processed by Telegraf~\cite{Telegraf} before being stored in InfluxDB.
 \item \emph{Data Processing and Visualization Layer}: This layer also resides on the dedicated server and leverages Grafana for data visualization and analytics. Additionally, a dedicated Next.js website provides the user interface, displaying current sensor readings for specified locations and timeframes.
 \end{enumerate}
 
@@ -74,7 +74,7 @@ It is acknowledged that individuals may carry multiple BLE-enabled devices (e.g.
 \begin{enumerate}
     \item Sensor placement: Currently, the only sensor has been placed in a lab in building C-16 of PWr. This provides us with a predictable usage pattern.
     \item Sensor Configuration: The sensor node is different from the one we described so far. This one was our initial attempt using a Raspberry PI W Single board computer that  was configured to perform a Bluetooth scan every 10 seconds using a purpose-built Python script. The scan results contain the number of unique MAC addresses seen in the last 10 seconds. After each scan period, the data is bundled with a timestamp and submitted to the database.
-    \item Potential interference from other 2.4 GHz devices (e.g., Wi-Fi) is a consideration. While the current lab deployment experiences minimal interference, strategies for larger deployments might include careful sensor placement, although BLE's adaptive frequency hopping is designed to mitigate co-channel interference.
+    \item Potential interference from other 2.4 GHz devices (e.g., Wi-Fi) is a consideration. While the current lab deployment experiences minimal interference, strategies for larger deployments might include careful sensor placement, although BLE's adaptive frequency hopping is designed to mitigate co-channel interference\cite{Bluetooth}.
     \item Communication Protocol: As in the final deployment, we will not be able to predict the diverse network environments the sensor will be connected to, we have decided to use MQTT for the communication protocol, as all public and private networks should have no problems routing it.
 \end{enumerate}
 
@@ -105,7 +105,7 @@ While parameters like RSSI were considered for distance estimation, their inhere
 \subsection{Congestion Estimation Algorithm}
 Currently, the device counts are being classified into congestion levels (e.g., low, medium, high) based on predefined thresholds. These thresholds (e.g., <5 devices = low, 5-15 = medium, >15 = high) were determined through a combination of empirical observation of device counts during known periods of low and high occupancy in the lab and initial analysis of typical crowd densities in the deployment area. A more detailed algorithmic description will be part of future work. In the future, we also aim to include:
 \begin{enumerate}
-    \item RSSI (Received Signal Strength Indicator) to Distance Estimation - RSSI is a measurement of the power present in a received radio signal. While it can be used to approximate distance, its accuracy is significantly affected by environmental factors (e.g., obstacles, multipath propagation), especially indoors, and device orientation. Thus, its application would be approached cautiously, potentially as a supplementary rather than primary metric for fine-grained spatial analysis
+    \item RSSI (Received Signal Strength Indicator) to Distance Estimation - RSSI is a measurement of the power present in a received radio signal. While it can be used to approximate distance, its accuracy is significantly affected by environmental factors (e.g., obstacles, multipath propagation), especially indoors, and device orientation\cite{Zafari_Localization}. Thus, its application would be approached cautiously, potentially as a supplementary rather than primary metric for fine-grained spatial analysis
     \item Density Estimation (e.g., correlating device counts per sensor to known area sizes).
 \end{enumerate}
 
@@ -126,8 +126,8 @@ But we aim to also include.
 
 
 \subsection{Privacy and Ethical Considerations}
-Modern Bluetooth devices frequently employ "Locally Administered Addresses" (LAA) which dynamically randomize Media Access Control (MAC) addresses. This practice significantly mitigates the potential for individual user tracking, as the persistent identification of specific devices becomes highly improbable. Our system leverages this inherent anonymization by design, focusing solely on the aggregate number of detected Bluetooth devices as a proxy for crowd density, rather than attempting to track individual device movements.
-However, it is crucial to acknowledge that not all devices implement LAA, and in instances where static MAC addresses are utilized, a theoretical possibility for tracking individual users exists if data were correlated across multiple sensors over time.
+Modern Bluetooth devices frequently employ "Locally Administered Addresses" (LAA) which dynamically randomize Media Access Control (MAC) addresses\cite{Bluetooth}. This practice significantly mitigates the potential for individual user tracking, as the persistent identification of specific devices becomes improbable\cite{Martin2017}. Our system leverages this inherent anonymization by design, focusing solely on the aggregate number of detected Bluetooth devices as a proxy for crowd density, rather than attempting to track individual device movements.
+However, it is crucial to acknowledge that this randomization is not foolproof. Research has shown that not all devices implement LAA correctly and that, even when they do, it is possible to de-anonymize devices under certain conditions, creating a risk for user tracking \cite{Martin2017}.
 Our current research and system implementation strictly focus on collecting only the aggregate count of unique MAC addresses detected per scan interval at each sensor, without storing individual MAC addresses, further enhancing privacy. The specific impact and prevalence of non-LAA devices within our data have not yet been thoroughly explored in depth for this specific deployment. This represents an area for continued monitoring and future investigation to ensure privacy principles are upheld.
 
 \section{Preliminary findings}
@@ -167,7 +167,7 @@ The principles and technology underpinning the BLE-based congestion monitoring s
     Stores can use BLE sensors to monitor foot traffic in aisles, optimize staffing during peak hours, and understand zone popularity and dwell times to enhance product placement strategies.
 
     \item  Smart Buildings-
-    The system can be integrated into building management platforms to dynamically adjust lighting, HVAC, and access control based on real-time zone occupancy.
+    The system can be integrated into building management platforms to dynamically adjust lighting, HVAC, and access control based on real-time zone occupancy\cite{AlFuqaha_IoT}.
 
     \item  Event Management-
     Concerts, conferences, and sports venues can leverage congestion heatmaps derived from sensor data to manage crowd flow, reduce bottlenecks, and ensure safety compliance by monitoring zone capacities.
@@ -183,7 +183,7 @@ The versatility of a low-cost, passive BLE sensing network, as demonstrated by t
 \subsection{Challenges, Limitations, and Future Research Directions}
 While our system demonstrates promising preliminary results for BLE-based congestion monitoring, it is important to recognize several limitations and challenges that influence its current performance and potential scalability:
 \begin{itemize}
-    \item     Use of Locally Administered Addresses (LAA): Modern Bluetooth devices frequently randomize their MAC addresses using LAA schemes. While this enhances user privacy (as discussed in Section 3.6), it significantly complicates the process of consistently identifying unique devices across multiple scans or over extended periods. A key challenge is that a single device may be counted multiple times if it changes its MAC address within a short scan interval (e.g., our 10-second window), potentially leading to inflated congestion estimates in those specific instances.
+    \item Use of Locally Administered Addresses (LAA): As thoroughly documented by researchers \cite{Martin2017}, modern Bluetooth devices frequently randomize their MAC addresses using LAA schemes. While this enhances user privacy (as discussed in Section 3.6), it significantly complicates the process of consistently identifying unique devices across multiple scans or over extended periods. A key challenge is that a single device may be counted multiple times if it changes its MAC address within a short scan interval (e.g., our 10-second window), potentially leading to inflated congestion estimates in those specific instances.
     \item     Static Devices in Detection Range: As observed during threshold calibration (Section 3.4), a baseline of approximately 10 devices was consistently detected in laboratory L2.3, likely from fixed infrastructure. While this can be accounted for in location-specific calibration, changes in background device presence (e.g., adding or removing equipment) could impact accuracy if not recalibrated.
     \item     Device-Person Ratio Variability: The estimated 3:1 device-to-person ratio, based on informal surveys in an academic context, is an approximation. This ratio likely varies significantly depending on the environment (e.g., students with multiple devices vs. general public visitors) and demographics, impacting the direct translation of device counts to precise person counts.
     \item     Environmental Interference and Signal Propagation: BLE signal strength (RSSI) and detectability are influenced by physical obstacles such as walls and furniture, as well as by peaple absorbing RF signals. This can lead to fluctuating readings or reduced detection range even with a constant number of devices, particularly in complex or less controlled indoor environments.
@@ -225,9 +225,41 @@ While our system demonstrates promising preliminary results for BLE-based conges
 % \bibliography{mybibliography}
 %
 \begin{thebibliography}{8}
-\bibitem{Espressif_Datasheet}
-Espressif ESP32-c3 Datasheet,\\
-\url{https://www.espressif.com/sites/default/files/documentation/esp32-c3\_datasheet\_en.pdf}\\
-last accessed 17.05.2025
+\bibitem{Espressif}
+Espressif ESP32-C3 Datasheet.\\
+\url{https://www.espressif.com/sites/default/files/documentation/esp32-c3\_datasheet\_en.pdf}\\ last accessed 30.06.2025.
+
+
+
+\bibitem{Grafana}
+Grafana Labs. "Grafana: The open observability platform."\\
+\url{https://grafana.com/}\\
+last accessed 30.06.2025
+
+\bibitem{MQTT}
+OASIS Standard. "MQTT Version 5.0."\\
+\url{https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html}\\
+last accessed 30.06.2025
+
+\bibitem{Telegraf}
+InfluxData. "Telegraf - The plugin-driven server agent for collecting \& reporting metrics."\\
+\url{https://www.influxdata.com/time-series-platform/telegraf/}\\
+last accessed 30.06.2025
+
+\bibitem{Bluetooth}
+Bluetooth SIG. "Bluetooth Core Specification, Version 5.3."\\
+\url{https://www.bluetooth.com/specifications/specs/core-specification-5-3/}\\
+last accessed 30.05.2025
+
+\bibitem{Zafari_Localization}
+Zafari, F., Gkelias, A., \& Leung, K. K. "A survey of indoor localization systems and technologies." *IEEE Communications Surveys \& Tutorials*, 21(3), 2568-2599 (2019).
+
+\bibitem{AlFuqaha_IoT}
+Al-Fuqaha, A., et al. "Internet of Things: A survey on enabling technologies, protocols, and applications." *IEEE Communications Surveys \& Tutorials*, 17(4), 2347-2376 (2015).
+
+\bibitem{Martin2017}
+Martin, E., et al.: A study of MAC address randomization in mobile devices and when it fails. In: Proceedings of the 16th Workshop on Privacy in the Electronic Society (WPES), pp. 1--12 (2017).
 \end{thebibliography}
+
+\end{document}
 \end{document}

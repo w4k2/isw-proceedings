@@ -1,5 +1,4 @@
 \contentsline {part}{Day 1}{1}{section*.3}%
-\contentsline {chapter}{Oral Session 1}{1}{section*.4}%
 \contentsline {section}{\numberline {0.1}\ignorespaces {Multi-label music genre recognition based on spectrograms}{\newline \itshape Bartosz Karpiński}}{1}{section.0.1}%
 \contentsline {section}{\numberline {0.2}\ignorespaces {Eye opening detection in early neonatal period through CNN}{\newline \itshape Nuria Velasco-Perez, Juan Arnaez, Nuno Basurto, Daniel Urda}}{11}{section.0.2}%
 \contentsline {section}{\numberline {0.3}\ignorespaces {Balanced accuracy evaluation of machine learning mofels for self-made photographic documentation of beekeeping frames}{\newline \itshape Jakub Iwaszkiewicz}}{19}{section.0.3}%
@@ -16,5 +15,5 @@
 \contentsline {section}{\numberline {0.14}\ignorespaces {Non-invasive and indirec measurement of low sugar concentrations in liquid with the use of ultrasonic sensor}{\newline \itshape Madhvi Asthana}}{111}{section.0.14}%
 \contentsline {section}{\numberline {0.15}\ignorespaces {Decentralization in ethereum: correlating beacon chain validators}{\newline \itshape Markus Andre Tveter}}{121}{section.0.15}%
 \contentsline {section}{\numberline {0.16}\ignorespaces {Virtual humans for HCI: a design framework for adaptive multimodal agents}{\newline \itshape Tarun Shyam Ravi}}{131}{section.0.16}%
-\contentsline {part}{Index of Authors}{141}{section*.5}%
+\contentsline {part}{Index of Authors}{141}{section*.4}%
 \contentsfinish 
