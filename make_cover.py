@@ -40,6 +40,12 @@ ax.spines['bottom'].set_visible(False)
 ax.set_xticks([])
 ax.set_yticks([])
 
+# ax.text(-.05,2.5,'International\nStudents\nWorkshop', c='xkcd:salmon', ha='right', va='center', fontsize=32)
+
+# ax.text(.05,-2.5,"Srebrna Góra'25", c='xkcd:salmon', ha='left', va='center', fontsize=16)
+
+ax.text(0,-3.14,'ISBN 978-83-933924-2-1', c='xkcd:salmon', ha='center', va='center')
+
 plt.subplots_adjust(left=0.05, right=0.95, top=1, bottom=0)
 
 
@@ -58,4 +64,4 @@ ax.set_aspect('equal')
 # ax.set_xlim(-m*letter[0],m*letter[0])
 # ax.set_ylim(-m*letter[1],m*letter[1])
 
-plt.savefig('foo.png', dpi=500)
+plt.savefig('back.eps', dpi=500)

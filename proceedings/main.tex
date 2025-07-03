@@ -27,6 +27,7 @@
 \usepackage{mathptmx}
 \usepackage[super]{nth}
 \usepackage{xcolor}
+\usepackage{graphicx}
 
 \renewcommand{\procpdfauthor }{{Editors: Paweł Ksieniewicz and Wojciech Kmiecik}}
 \renewcommand{\procpdftitle }{{Proceedings of the 8th International Students Workshop}}
@@ -46,7 +47,8 @@
 %%%=========== PROCEEDINGS ===========
 \begin{document}
 \pagecolor{black}
-\includepdf[scale=1.,pages=1,link]{cover-front.pdf}
+\includepdf[scale=1.,pages=1,link]{../front.pdf}
+% \includegraphics[width=5cm]{../front.eps}
 
 \pagecolor{white}
 
@@ -143,17 +145,17 @@ Wroclaw University of Science and Technology
 \singlespace
 \tableofcontents
 
-\textbf{Honorable Chair}\\
+\noindent \textbf{Honorable Chair}\\
 
 \noindent Iwona Poźniak-Koszałka, Wrocław University of Science and Technology\\
 
-\textbf{Conference Chairs}\\
+\noindent \textbf{Conference Chairs}\\
 
 \noindent Weronika Borek-Marciniec, Wrocław University of Science and Technology\\
 Wojciech Kmiecik, Wrocław University of Science and Technology\\
 Szymon Wojciechowski, Wrocław University of Science and Technology\\
 
-\textbf{Steering Committee}\\
+\noindent \textbf{Steering Committee}\\
 
 \noindent Nuño Basurto, Universidad de Burgos\\
 Amgad Elsayed, Wrocław University of Science and Technology and\\Menoufia University\\
@@ -171,7 +173,7 @@ Weronika Węgier, Wrocław University of Science and Technology\\
 Anna Zakrzewska, Nokia Bell Labs, Dublin, Ireland\\
 Paweł Zyblewski, Wrocław University of Science and Technology\\
 
-\textbf{Organizing Committee}\\
+\noindent \textbf{Organizing Committee}\\
 
 \noindent Tomasz Kucofaj, Wrocław University of Science and Technology\\
 Krzysztof Kwater, Wrocław University of Science and Technology\\
@@ -184,7 +186,7 @@ Adrian Waśniewski, Wrocław University of Science and Technology\\
 %%%==== BEGINNING OF PAPERS ====
 \mainmatter
 
-\procday{Contents}
+% \procday{Contents}
 %   \session{Oral Session 1}
     \procpaper[
       title={Multi-label music genre recognition based on spectrograms},%
@@ -291,6 +293,6 @@ Adrian Waśniewski, Wrocław University of Science and Technology\\
 \insertindex
 
 \pagecolor{black}
-\includepdf[scale=1.,pages=1,link]{cover-back.pdf}
+\includepdf[scale=1.,pages=1,link]{../back.pdf}
 
 \end{document}
