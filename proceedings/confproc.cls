@@ -452,7 +452,7 @@
   01--29 February, 2001}}
 \newcommand{\procrhead}{}
 \newcommand{\proclfoot}{}
-\newcommand{\proccfoot}{{\small \thepage}}
+\newcommand{\proccfoot}{{\small Proc-\thepage}}
 \newcommand{\procrfoot}{}
 \pagestyle{fancyplain}
 \renewcommand{\headrulewidth}{0pt}
